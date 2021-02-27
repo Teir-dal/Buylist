@@ -1,184 +1,21 @@
 {
+ {
   "traits": [
     {
-     
-     
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Abrasive",
       "degree": 0,
       "name": "abrasive",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "kind",
-          "charismatic",
-          "verycharismatic",
-          "perceptive",
-          "veryperceptive"
-        ],
-        "customName": false,
-        "stats": [
-          "+3 melee"
-        ]
-      },
-      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
-      "stats": [
-        "+3 melee"
-      ],
-      "conflicts": [
-        "kind",
-        "charismatic",
-        "verycharismatic",
-        "perceptive",
-        "veryperceptive"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_ActionBoy",
-      "degree": 0,
-      "name": "actionboy",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "actiongirl",
-          "slowpoke",
-          "fastwalker",
-          "jogger",
-          "industrious",
-          "hardworker",
-          "lazy",
-          "slothful"
-        ],
-        "customName": false,
-        "stats": [
-          "+0.20 move speed",
-          "+20% global work speed",
-          "+20% eating speed"
-        ]
-      },
-      "description": "There's no time to waste! Timmy has increased movement and work speed.",
-      "stats": [
-        "+0.20 move speed",
-        "+20% global work speed",
-        "+20% eating speed"
-      ],
-      "conflicts": [
-        "actiongirl",
-        "slowpoke",
-        "fastwalker",
-        "jogger",
-        "industrious",
-        "hardworker",
-        "lazy",
-        "slothful"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_ActionGirl",
-      "degree": 0,
-      "name": "actiongirl",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "slowpoke",
-          "fastwalker",
-          "jogger",
-          "industrious",
-          "hardworker",
-          "lazy",
-          "slothful"
-        ],
-        "customName": false,
-        "stats": [
-          "+0.20 move speed",
-          "+20% global work speed",
-          "+20% eating speed"
-        ]
-      },
-      "description": "There's no time to waste! Timmy has increased movement and work speed.",
-      "stats": [
-        "+0.20 move speed",
-        "+20% global work speed",
-        "+20% eating speed"
-      ],
-      "conflicts": [
-        "actionboy",
-        "slowpoke",
-        "fastwalker",
-        "jogger",
-        "industrious",
-        "hardworker",
-        "lazy",
-        "slothful"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Agility",
-      "degree": 1,
-      "name": "agile",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "wimp",
-          "rooted"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 melee",
-          "+15% hunting stealth",
-          "+0.20 move speed",
-          "+5.0 melee hit chance",
-          "+5.0 melee dodge chance"
-        ]
-      },
-      "description": "Timmy has good reflexes and moves with finesse. he will land and dodge more attacks in melee combat.",
-      "stats": [
-        "+2 melee",
-        "+15% hunting stealth",
-        "+0.20 move speed",
-        "+5.0 melee hit chance",
-        "+5.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "wimp",
-        "rooted"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Devotion",
-      "degree": -1,
-      "name": "agnostic",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy holds that one cannot encompass the divine, therefore worshipping gods is a fallacy.",
+      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -186,137 +23,160 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_AnimalFriend",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_AbsentMinded",
       "degree": 0,
-      "name": "animalfriend",
+      "name": "absent-minded",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "bloodlust",
-          "ghoulish"
+          "workaholic",
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful"
         ],
         "customName": false,
-        "stats": [
-          "+4 animals",
-          "+5% hunting stealth",
-          "+10% animal gather speed",
-          "+10% animal gather yield",
-          "+5.00% tame animal chance",
-          "+5.00% train animal chance"
-        ]
+        "stats": []
       },
-      "description": "Timmy has a passion for animals. he gets bonuses to all animal interactions.",
-      "stats": [
-        "+4 animals",
-        "+5% hunting stealth",
-        "+10% animal gather speed",
-        "+10% animal gather yield",
-        "+5.00% tame animal chance",
-        "+5.00% train animal chance"
-      ],
+      "description": "Timmy tends to occasionally allow their mind to drift, even in the middle of working.",
+      "stats": [],
       "conflicts": [
-        "bloodlust",
-        "ghoulish"
+        "workaholic",
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Academian",
+      "degree": 0,
+      "name": "academian",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 intellectual",
+          "+4 medical",
+          "+20% medical tend quality"
+        ]
+      },
+      "description": "Whether through studying ancient manuscripts or years of scholastic pursuit Timmy is surprisingly well read on a variety of topics, particularly science and medical practice.",
+      "stats": [
+        "+4 intellectual",
+        "+4 medical",
+        "+20% medical tend quality"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_AnimalHater",
+      "degree": 0,
+      "name": "animalhater",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "animallover",
+          "menagerist"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy believes deeply in human superiority. Killing animals will please them and the colony losing an animal is a cherry on top according to them.",
+      "stats": [],
+      "conflicts": [
+        "animallover",
+        "menagerist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_AnimalLover",
+      "degree": 0,
+      "name": "animallover",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "animalhater"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy can't stand mistreatment of animals. he will feel happier being nuzzled or being a master to a bonded animal, but will be more deeply crushed when not master of a bonded animal or seeing one die. They also refuse to butcher.",
+      "stats": [],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "AnnoyingVoice",
       "degree": 0,
       "name": "annoyingvoice",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "charismatic",
-          "verycharismatic"
-        ],
+        "conflicts": [],
         "customName": false,
-        "stats": [
-          "x110% move speed",
-          "x150% recreation power"
-        ]
+        "stats": []
       },
       "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
-      "stats": [
-        "x110% move speed",
-        "x150% recreation power"
-      ],
-      "conflicts": [
-        "charismatic",
-        "verycharismatic"
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Artisan",
-      "degree": 2,
-      "name": "artisan",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Anxious",
+      "degree": 0,
+      "name": "anxious",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "shepherd",
-          "hunter",
-          "gunslinger",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
+          "fun-loving"
         ],
         "customName": false,
         "stats": [
-          "+3 artistic",
-          "+20% general labor speed"
+          "Only mental break \"VTE_PanicFreezing\" allowed."
         ]
       },
-      "description": "Timmy has a deep understanding of art and beauty.",
+      "description": "Timmy feels naturally anxious, but especially from social situations. They will not attend any gatherings and may occasionally need alone time in their room to breathe.",
       "stats": [
-        "+3 artistic",
-        "+20% general labor speed"
+        "Only mental break \"VTE_PanicFreezing\" allowed."
       ],
       "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "shepherd",
-        "hunter",
-        "gunslinger",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
+        "fun-loving"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Ascetic",
       "degree": 0,
       "name": "ascetic",
@@ -348,8 +208,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1,
+      "removePrice": 1,
       "defName": "Asexual",
       "degree": 0,
       "name": "asexual",
@@ -367,180 +227,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "KhorneChampion",
-      "degree": 0,
-      "name": "aspiringchampion",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "x112% mental break threshold",
-          "x105% move speed",
-          "x105% melee hit chance",
-          "x105% melee dodge chance",
-          "x105% melee hit chance"
-        ]
-      },
-      "description": "This individual was selected by Khorne to do battle in his name.",
-      "stats": [
-        "x112% mental break threshold",
-        "x105% move speed",
-        "x105% melee hit chance",
-        "x105% melee dodge chance",
-        "x105% melee hit chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "NurgleChampion",
-      "degree": 0,
-      "name": "aspiringchampion",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "x112% mental break threshold",
-          "x80% move speed",
-          "x110% pain shock threshold"
-        ]
-      },
-      "description": "This individual was selected by Nurgle to spread pestilence.",
-      "stats": [
-        "x112% mental break threshold",
-        "x80% move speed",
-        "x110% pain shock threshold"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "TzeentchChampion",
-      "degree": 0,
-      "name": "aspiringchampion",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+200% mental break threshold",
-          "+300% pain shock threshold",
-          "x10 market value",
-          "x80% move speed"
-        ]
-      },
-      "description": "This individual was selected by Tzeentch to be a fulcrum of knowledge and sorcery.",
-      "stats": [
-        "+200% mental break threshold",
-        "+300% pain shock threshold",
-        "x10 market value",
-        "x80% move speed"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "SlaaneshChampion",
-      "degree": 0,
-      "name": "aspiringchampion",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "ascetic"
-        ],
-        "customName": false,
-        "stats": [
-          "+1.0 beauty",
-          "+10% global work speed",
-          "+5% mental break threshold",
-          "+2.0 shooting accuracy",
-          "+2.0 melee hit chance",
-          "+2.0 melee dodge chance"
-        ]
-      },
-      "description": "This individual was chosen by Slaanesh to be an idol of lust and perfection.",
-      "stats": [
-        "+1.0 beauty",
-        "+10% global work speed",
-        "+5% mental break threshold",
-        "+2.0 shooting accuracy",
-        "+2.0 melee hit chance",
-        "+2.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "ascetic"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "HumanSaint",
-      "degree": 0,
-      "name": "aspiringsaint",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "x200% market value",
-          "x120% mental break threshold",
-          "x110% social impact",
-          "x110% tame animal chance"
-        ]
-      },
-      "description": "This individual was selected by the Emperor to fulfill a purpose. What this purpose is, remains unclear.",
-      "stats": [
-        "x200% market value",
-        "x120% mental break threshold",
-        "x110% social impact",
-        "x110% tame animal chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Devotion",
-      "degree": -2,
-      "name": "atheist",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": []
-      },
-      "description": "Timmy does not believe in divinity. There are no gods among the stars, only cruel and powerful forces worthy of contempt.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Beauty",
       "degree": 2,
       "name": "beautiful",
@@ -562,8 +250,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_BigBoned",
+      "degree": 0,
+      "name": "big-boned",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Whether because they're a bit chunky or because they shift their weight oddly, Timmy has broken a few chairs in their time and is likely to break more.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1,
+      "removePrice": 1,
       "defName": "Bisexual",
       "degree": 0,
       "name": "bisexual",
@@ -581,18 +288,14 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Bloodlust",
       "degree": 0,
       "name": "bloodlust",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "animalfriend",
-          "charismatic",
-          "verycharismatic"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "Morbid meditation focus type allowed."
@@ -602,18 +305,14 @@
       "stats": [
         "Morbid meditation focus type allowed."
       ],
-      "conflicts": [
-        "animalfriend",
-        "charismatic",
-        "verycharismatic"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "BodyPurist",
       "degree": 0,
       "name": "bodypurist",
@@ -635,8 +334,39 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Brave",
+      "degree": 0,
+      "name": "brave",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "wimp",
+          "coward"
+        ],
+        "customName": false,
+        "stats": [
+          "-20% mental break threshold",
+          "+20% pain shock threshold"
+        ]
+      },
+      "description": "Timmy has a higher mental and physical fortitude compared to most and can more readily adapt to harsh environments in the rimworlds.",
+      "stats": [
+        "-20% mental break threshold",
+        "+20% pain shock threshold"
+      ],
+      "conflicts": [
+        "wimp",
+        "coward"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Brawler",
       "degree": 0,
       "name": "brawler",
@@ -645,10 +375,7 @@
         "conflicts": [
           "carefulshooter",
           "trigger-happy",
-          "wimp",
-          "carefulshooter",
-          "trigger-happy",
-          "gunnut"
+          "wimp"
         ],
         "customName": false,
         "stats": [
@@ -668,18 +395,15 @@
       "conflicts": [
         "carefulshooter",
         "trigger-happy",
-        "wimp",
-        "carefulshooter",
-        "trigger-happy",
-        "gunnut"
+        "wimp"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Cannibal",
       "degree": 0,
       "name": "cannibal",
@@ -701,8 +425,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "ShootingAccuracy",
       "degree": 1,
       "name": "carefulshooter",
@@ -730,255 +454,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "KhorneChampion",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_CatPerson",
       "degree": 0,
-      "name": "championofkhorne",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "x112% mental break threshold",
-          "x105% move speed",
-          "x105% melee hit chance",
-          "x105% melee dodge chance",
-          "x105% melee hit chance"
-        ]
-      },
-      "description": "This individual was selected by Khorne to do battle in his name.",
-      "stats": [
-        "x112% mental break threshold",
-        "x105% move speed",
-        "x105% melee hit chance",
-        "x105% melee dodge chance",
-        "x105% melee hit chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "NurgleChampion",
-      "degree": 0,
-      "name": "championofnurgle",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "x112% mental break threshold",
-          "x80% move speed",
-          "x110% pain shock threshold"
-        ]
-      },
-      "description": "This individual was selected by Nurgle to spread pestilence.",
-      "stats": [
-        "x112% mental break threshold",
-        "x80% move speed",
-        "x110% pain shock threshold"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "SlaaneshChampion",
-      "degree": 0,
-      "name": "championofslaanesh",
+      "name": "catperson",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "ascetic"
+          "dogperson"
         ],
-        "customName": false,
-        "stats": [
-          "+1.0 beauty",
-          "+10% global work speed",
-          "+5% mental break threshold",
-          "+2.0 shooting accuracy",
-          "+2.0 melee hit chance",
-          "+2.0 melee dodge chance"
-        ]
-      },
-      "description": "This individual was chosen by Slaanesh to be an idol of lust and perfection.",
-      "stats": [
-        "+1.0 beauty",
-        "+10% global work speed",
-        "+5% mental break threshold",
-        "+2.0 shooting accuracy",
-        "+2.0 melee hit chance",
-        "+2.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "ascetic"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "TzeentchChampion",
-      "degree": 0,
-      "name": "championoftzeentch",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+200% mental break threshold",
-          "+300% pain shock threshold",
-          "x10 market value",
-          "x80% move speed"
-        ]
-      },
-      "description": "This individual was selected by Tzeentch to be a fulcrum of knowledge and sorcery.",
-      "stats": [
-        "+200% mental break threshold",
-        "+300% pain shock threshold",
-        "x10 market value",
-        "x80% move speed"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Undivided_Fervor",
-      "degree": 0,
-      "name": "chaosfollower",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy will teach and convert in the name of chaos itself.",
+      "description": "Timmy is mad for all things feline. They will naturally gravitate towards bonding with cats, however they're not a fan of dogs.",
       "stats": [],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Charisma",
-      "degree": 1,
-      "name": "charismatic",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "abrasive",
-          "bloodlust",
-          "idiotsavant",
-          "annoyingvoice"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 social",
-          "+10.00% negotiation ability",
-          "+20.00% social impact",
-          "+5.00% trade price improvement"
-        ]
-      },
-      "description": "Timmy has a charismatic personality. he gets bonuses to all human-like social interactions.",
-      "stats": [
-        "+2 social",
-        "+10.00% negotiation ability",
-        "+20.00% social impact",
-        "+5.00% trade price improvement"
-      ],
       "conflicts": [
-        "abrasive",
-        "bloodlust",
-        "idiotsavant",
-        "annoyingvoice"
+        "dogperson"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Chef",
-      "degree": 0,
-      "name": "chef",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "shepherd",
-          "hunter",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 cooking",
-          "+0.2 cooking speed",
-          "-20.00% food poison chance",
-          "+20% butchery efficiency"
-        ]
-      },
-      "description": "Timmy is a great cook and can make really delicious dishes.",
-      "stats": [
-        "+2 cooking",
-        "+0.2 cooking speed",
-        "-20.00% food poison chance",
-        "+20% butchery efficiency"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "shepherd",
-        "hunter",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "DrugDesire",
       "degree": 2,
       "name": "chemicalfascination",
@@ -986,24 +486,18 @@
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": [
-          "+3 medical",
-          "+3 plants"
-        ]
+        "stats": []
       },
       "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
-      "stats": [
-        "+3 medical",
-        "+3 plants"
-      ],
+      "stats": [],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "DrugDesire",
       "degree": 1,
       "name": "chemicalinterest",
@@ -1011,145 +505,114 @@
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": [
-          "+1 medical",
-          "+1 plants"
-        ]
+        "stats": []
       },
       "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
-      "stats": [
-        "+1 medical",
-        "+1 plants"
-      ],
+      "stats": [],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "OrkChosenOfMork",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Clumsy",
       "degree": 0,
-      "name": "chosenofgork",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+8 shooting",
-          "x500% market value",
-          "x512% mental break threshold",
-          "x140% move speed",
-          "x200% melee dodge chance"
-        ]
-      },
-      "description": "This individual is a favourite of Gork, increasing its kunning.",
-      "stats": [
-        "+8 shooting",
-        "x500% market value",
-        "x512% mental break threshold",
-        "x140% move speed",
-        "x200% melee dodge chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "OrkChosenOfGork",
-      "degree": 0,
-      "name": "chosenofgork",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+8 melee",
-          "x500% market value",
-          "x512% mental break threshold",
-          "x200% melee hit chance"
-        ]
-      },
-      "description": "This individual is a favourite of Gork, increasing its ability to stomp and krump.",
-      "stats": [
-        "+8 melee",
-        "x500% market value",
-        "x512% mental break threshold",
-        "x200% melee hit chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Artisan",
-      "degree": 1,
-      "name": "crafter",
+      "name": "clumsy",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "shepherd",
-          "hunter",
-          "gunslinger",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
+          "nimble"
         ],
         "customName": false,
-        "stats": [
-          "+2 crafting",
-          "+20% general labor speed",
-          "+20% smelting speed"
-        ]
+        "stats": []
       },
-      "description": "Timmy is a skilled crafter, and can work both fast and skillfully.",
-      "stats": [
-        "+2 crafting",
-        "+20% general labor speed",
-        "+20% smelting speed"
-      ],
+      "description": "Minor bruises and scrapes plague Timmy all too often, mostly due to uncoordinated tripping or falling.",
+      "stats": [],
       "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "shepherd",
-        "hunter",
-        "gunslinger",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
+        "nimble"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_ColdInclined",
+      "degree": 0,
+      "name": "coldinclined",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "heatinclined"
+        ],
+        "customName": false,
+        "stats": [
+          "-18.0F [-10.0C] Minimum comfortable temperature"
+        ]
+      },
+      "description": "Timmy loves the overcast and cold of a brisk winter night. They don't mind getting chilly or sleeping in the cold either.",
+      "stats": [
+        "-18.0F [-10.0C] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "heatinclined"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_CouchPotato",
+      "degree": 0,
+      "name": "couchpotato",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "An armchair and flatscreen is all Timmy needs to be happy. Even reruns or ancient commercials are entertaining to them, they will never grow bored of television and tend to watch it more, as well as feel pleased after doing so.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Coward",
+      "degree": 0,
+      "name": "coward",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "brawler",
+          "brave",
+          "bloodlust"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "While fully capable of warfare in theory, Timmy's fight or flight instincts heavily lean towards flight, and he will try to hide or run as a first priority.",
+      "stats": [],
+      "conflicts": [
+        "brawler",
+        "brave",
+        "bloodlust"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "CreepyBreathing",
       "degree": 0,
       "name": "creepybreathing",
@@ -1167,46 +630,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "ChaosCultist",
-      "degree": 0,
-      "name": "cultist",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": []
-      },
-      "description": "Timmy is following a chaos cult.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "DE_Depravity",
-      "degree": 0,
-      "name": "darkeldardepravity",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": []
-      },
-      "description": "Timmy feeds on the pain on sentient beings. HE will go through unspeakable acts of depravity to still this hunger.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "NaturalMood",
       "degree": -2,
       "name": "depressive",
@@ -1214,187 +639,9 @@
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": [
-          "+3 animals",
-          "x110% tame animal chance",
-          "x115% train animal chance"
-        ]
+        "stats": []
       },
       "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
-      "stats": [
-        "+3 animals",
-        "x110% tame animal chance",
-        "x115% train animal chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Diplomat",
-      "degree": 0,
-      "name": "diplomat",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "miner",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 social",
-          "+20.00% social impact",
-          "+20.00% trade price improvement",
-          "+20.00% negotiation ability"
-        ]
-      },
-      "description": "Timmy is very charismatic and can bend other people to their will.",
-      "stats": [
-        "+2 social",
-        "+20.00% social impact",
-        "+20.00% trade price improvement",
-        "+20.00% negotiation ability"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "miner",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Khaine_Fervor",
-      "degree": 0,
-      "name": "discipleofkhaine",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+80% pain shock threshold"
-        ]
-      },
-      "description": "Timmy is on the Path of the Warrior, embodying aspects of Khaela Mensha Khaine.",
-      "stats": [
-        "+80% pain shock threshold"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Fighter",
-      "degree": 1,
-      "name": "duelist",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "brawler",
-          "tough",
-          "gunslinger",
-          "mason",
-          "shepherd",
-          "hunter",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 melee",
-          "+0.2 melee hit chance",
-          "+0.3 melee dodge chance"
-        ]
-      },
-      "description": "Timmy is skilled at fighting in close-quarters.",
-      "stats": [
-        "+2 melee",
-        "+0.2 melee hit chance",
-        "+0.3 melee dodge chance"
-      ],
-      "conflicts": [
-        "brawler",
-        "tough",
-        "gunslinger",
-        "mason",
-        "shepherd",
-        "hunter",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Ynnead_Hope",
-      "degree": 0,
-      "name": "eldarfatalism",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": []
-      },
-      "description": "Timmy is a follower of Ynnead. The spiral towards death is the only way to free the Eldar.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -1402,18 +649,18 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "ELDAR_mastery",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Desensitized",
       "degree": 0,
-      "name": "eldarmastery",
+      "name": "desensitized",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy is an Eldar. They strive for perfection in everything they do.",
+      "description": "Timmy is hardened through what can only be presumed as old emotional trauma. They feel absolutely nothing from lost animals, colonists, family, prisoners or dead bodies.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -1421,80 +668,151 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Endurance",
-      "degree": 1,
-      "name": "enduring",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_DogPerson",
+      "degree": 0,
+      "name": "dogperson",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "wimp",
-          "iron-willed",
-          "steadfast",
-          "nervous",
-          "volatile"
+          "catperson"
         ],
         "customName": false,
-        "stats": [
-          "+10% pain shock threshold",
-          "-10% mental break threshold",
-          "+10% immunity gain speed",
-          "-15% toxic sensitivity",
-          "-15% psychic sensitivity"
-        ]
+        "stats": []
       },
-      "description": "Timmy has good health and an enduring personality. he is better at handling stressful situations than others.",
-      "stats": [
-        "+10% pain shock threshold",
-        "-10% mental break threshold",
-        "+10% immunity gain speed",
-        "-15% toxic sensitivity",
-        "-15% psychic sensitivity"
-      ],
+      "description": "Timmy is mad for all things canine. They will naturally gravitate towards bonding with dogs, however they're not a fan of cats.",
+      "stats": [],
       "conflicts": [
-        "wimp",
-        "iron-willed",
-        "steadfast",
-        "nervous",
-        "volatile"
+        "catperson"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Devotion",
-      "degree": 2,
-      "name": "fanatic",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_DrunkenMaster",
+      "degree": 0,
+      "name": "drunkenmaster",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": []
+        "stats": [
+          "+4 melee"
+        ]
       },
-      "description": "Timmy's life is dedicated to the divine and believes are worth to go to war for.",
-      "stats": [],
+      "description": "Timmy is supposedly a hand-to-hand combat specialist, but only when inebriated. They claim to become more talented the more drunk they are.",
+      "stats": [
+        "+4 melee"
+      ],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Dunce",
+      "degree": 0,
+      "name": "dunce",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "fastlearner",
+          "toosmart",
+          "eccentric",
+          "prodigy"
+        ],
+        "customName": false,
+        "stats": [
+          "-50% global learning factor",
+          "-50.00% social impact"
+        ]
+      },
+      "description": "Timmy has hindered mental capacities. While slow to learn and hard to speak with, they tend to be much happier naturally.",
+      "stats": [
+        "-50% global learning factor",
+        "-50.00% social impact"
+      ],
+      "conflicts": [
+        "fastlearner",
+        "toosmart",
+        "eccentric",
+        "prodigy"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Eccentric",
+      "degree": 0,
+      "name": "eccentric",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "dunce"
+        ],
+        "customName": false,
+        "stats": [
+          "x115% research speed"
+        ]
+      },
+      "description": "Timmy has a loose screw or two, a small trade off for being naturally scientifically inclined.",
+      "stats": [
+        "x115% research speed"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Ecologist",
+      "degree": 0,
+      "name": "ecologist",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+4 animals",
+          "+4 plants",
+          "+20% plant harvest yield",
+          "+20% butchery efficiency"
+        ]
+      },
+      "description": "Flora and fauna are both vital to Timmy. They use all parts of plants and animals and strongly appreciate mother Gaia's blessings.",
+      "stats": [
+        "+4 animals",
+        "+4 plants",
+        "+20% plant harvest yield",
+        "+20% butchery efficiency"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "FastLearner",
       "degree": 0,
       "name": "fastlearner",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "idiotsavant",
-          "stupid",
-          "oblivious"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "+75% global learning factor"
@@ -1504,28 +822,20 @@
       "stats": [
         "+75% global learning factor"
       ],
-      "conflicts": [
-        "idiotsavant",
-        "stupid",
-        "oblivious"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "SpeedOffset",
       "degree": 1,
       "name": "fastwalker",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl",
-          "rooted"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "+0.20 move speed"
@@ -1535,28 +845,24 @@
       "stats": [
         "+0.20 move speed"
       ],
-      "conflicts": [
-        "actionboy",
-        "actiongirl",
-        "rooted"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Devotion",
-      "degree": 1,
-      "name": "ferventbeliever",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VCEF_Fisherman",
+      "degree": 0,
+      "name": "fisherman",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy strongly believes in the divine.",
+      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -1564,135 +870,58 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Fighter",
-      "degree": 3,
-      "name": "fighter",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "brawler",
-          "tough",
-          "gunslinger",
-          "mason",
-          "shepherd",
-          "hunter",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 melee",
-          "+0.20 melee DPS",
-          "+20% melee armor penetration"
-        ]
-      },
-      "description": "Timmy has a heavy hand to deliver pain to the enemies.",
-      "stats": [
-        "+2 melee",
-        "+0.20 melee DPS",
-        "+20% melee armor penetration"
-      ],
-      "conflicts": [
-        "brawler",
-        "tough",
-        "gunslinger",
-        "mason",
-        "shepherd",
-        "hunter",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_FortuneFinder",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_FunLoving",
       "degree": 0,
-      "name": "fortunefinder",
+      "name": "fun-loving",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "oblivious"
+          "anxious"
         ],
         "customName": false,
-        "stats": [
-          "+5 foraged food amount",
-          "+10% mining yield",
-          "+10% animal gather yield",
-          "+10% plant harvest yield",
-          "+10.00% trade price improvement"
-        ]
+        "stats": []
       },
-      "description": "Timmy seems to discover hidden wealth where ever he goes.",
-      "stats": [
-        "+5 foraged food amount",
-        "+10% mining yield",
-        "+10% animal gather yield",
-        "+10% plant harvest yield",
-        "+10.00% trade price improvement"
-      ],
+      "description": "Timmy always recalls the good times and lives to party, any party attended will be remembered for many times longer than most.",
+      "stats": [],
       "conflicts": [
-        "oblivious"
+        "anxious"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_FrailBack",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Gastronomist",
       "degree": 0,
-      "name": "frailback",
+      "name": "gastronomist",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "strongback",
-          "verystrongback"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
-          "-25 carrying capacity"
+          "+4 cooking",
+          "+4 artistic",
+          "-25.00% food poison chance"
         ]
       },
-      "description": "Timmy has a frail back so he can't carry as much as the average person.",
+      "description": "In the eyes of Timmy food is art, their culinary creations are incredibly beautiful, amazing to taste, and almost always safe to eat.",
       "stats": [
-        "-25 carrying capacity"
+        "+4 cooking",
+        "+4 artistic",
+        "-25.00% food poison chance"
       ],
-      "conflicts": [
-        "strongback",
-        "verystrongback"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1,
+      "removePrice": 1,
       "defName": "Gay",
       "degree": 0,
       "name": "gay",
@@ -1710,49 +939,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Ghoulish",
-      "degree": 0,
-      "name": "ghoulish",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "radresistant",
-          "animalfriend"
-        ],
-        "customName": false,
-        "stats": [
-          "-3 social",
-          "-3 animals",
-          "-100% toxic sensitivity",
-          "+30% immunity gain speed",
-          "-20.00% social impact",
-          "-10.00% tame animal chance",
-          "-10.00% train animal chance"
-        ]
-      },
-      "description": "Timmy is still human, mostly. he is immune to the effects of toxic fallout but their ghoulish appearance makes interacting with others difficult.",
-      "stats": [
-        "-3 social",
-        "-3 animals",
-        "-100% toxic sensitivity",
-        "+30% immunity gain speed",
-        "-20.00% social impact",
-        "-10.00% tame animal chance",
-        "-10.00% train animal chance"
-      ],
-      "conflicts": [
-        "radresistant",
-        "animalfriend"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Gourmand",
       "degree": 0,
       "name": "gourmand",
@@ -1764,15 +952,13 @@
         "customName": false,
         "stats": [
           "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking",
-          "x75% eating speed"
+          "+4 cooking"
         ]
       },
       "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
       "stats": [
         "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking",
-        "x75% eating speed"
+        "+4 cooking"
       ],
       "conflicts": [
         "ascetic"
@@ -1782,8 +968,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "GreatMemory",
       "degree": 0,
       "name": "greatmemory",
@@ -1791,22 +977,18 @@
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": [
-          "+25% global learning factor"
-        ]
+        "stats": []
       },
-      "description": "Timmy has a fantastic memory for detail. he will learn new skills slightly faster than other people.",
-      "stats": [
-        "+25% global learning factor"
-      ],
+      "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
+      "stats": [],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Greedy",
       "degree": 0,
       "name": "greedy",
@@ -1817,16 +999,10 @@
           "jealous"
         ],
         "customName": false,
-        "stats": [
-          "x133% eating speed",
-          "x150% carrying capacity"
-        ]
+        "stats": []
       },
       "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
-      "stats": [
-        "x133% eating speed",
-        "x150% carrying capacity"
-      ],
+      "stats": [],
       "conflicts": [
         "ascetic",
         "jealous"
@@ -1836,113 +1012,43 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_GunNut",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Groundbreaker",
       "degree": 0,
-      "name": "gunnut",
+      "name": "groundbreaker",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "brawler",
-          "wimp"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
-          "+2 shooting",
-          "-10% aiming time",
-          "+5.0 shooting accuracy"
+          "+4 mining",
+          "+4 construction",
+          "+20% mining yield",
+          "+20% construction speed"
         ]
       },
-      "description": "Timmy is a gun nut, he loves guns. he gets a mood bonus while holding a ranged weapon.",
+      "description": "Timmy strongly believes infrastucture rules all and is a natural born stoneworker.",
       "stats": [
-        "+2 shooting",
-        "-10% aiming time",
-        "+5.0 shooting accuracy"
+        "+4 mining",
+        "+4 construction",
+        "+20% mining yield",
+        "+20% construction speed"
       ],
-      "conflicts": [
-        "brawler",
-        "wimp"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Gunslinger",
-      "degree": 0,
-      "name": "gunslinger",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "shepherd",
-          "hunter",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 shooting",
-          "-20% aiming time",
-          "+0.2 shooting accuracy"
-        ]
-      },
-      "description": "Timmy is a crackshot with a gun - or any ranged weapon for that matter.",
-      "stats": [
-        "+2 shooting",
-        "-20% aiming time",
-        "+0.2 shooting accuracy"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "shepherd",
-        "hunter",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Industriousness",
       "degree": 1,
       "name": "hardworker",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "+20% global work speed"
@@ -1952,27 +1058,51 @@
       "stats": [
         "+20% global work speed"
       ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_HeatInclined",
+      "degree": 0,
+      "name": "heatinclined",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "coldinclined"
+        ],
+        "customName": false,
+        "stats": [
+          "+18.0F [10.0C] Maximum comfortable temperature"
+        ]
+      },
+      "description": "Timmy loves the brightness and heat of a dry summer day. They don't mind working up a sweat or sleeping in the warmth either.",
+      "stats": [
+        "+18.0F [10.0C] Maximum comfortable temperature"
+      ],
       "conflicts": [
-        "actionboy",
-        "actiongirl"
+        "coldinclined"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Cegorach_Laughter",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_HeavySleeper",
       "degree": 0,
-      "name": "harlequin",
+      "name": "heavysleeper",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy is a follower of Cegorach, the Laughing God.",
+      "description": "A bomb could go off next to Timmy while they sleep and they'd continue to do so. They can't be bothered to defend the colony mid catnap, either.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
@@ -1980,643 +1110,14 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Hauler",
-      "degree": 0,
-      "name": "hauler",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist"
-        ],
-        "customName": false,
-        "stats": [
-          "+0.20 move speed",
-          "+50 carrying capacity"
-        ]
-      },
-      "description": "Timmy has a strong back, and can move fast even while carrying weight.",
-      "stats": [
-        "+0.20 move speed",
-        "+50 carrying capacity"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Herbalist",
-      "degree": 0,
-      "name": "herbalist",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 plants",
-          "+20% plant work speed",
-          "+20% plant harvest yield"
-        ]
-      },
-      "description": "Timmy is good at working with plants, cutting down trees and harvesting crops.",
-      "stats": [
-        "+2 plants",
-        "+20% plant work speed",
-        "+20% plant harvest yield"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Tamer",
-      "degree": 2,
-      "name": "hunter",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 animals",
-          "+20% hunting stealth",
-          "+20.00% train animal chance"
-        ]
-      },
-      "description": "Timmy is good at hunting the big game, and can also train animals for various tasks.",
-      "stats": [
-        "+2 animals",
-        "+20% hunting stealth",
-        "+20.00% train animal chance"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_IdiotSavant",
-      "degree": 0,
-      "name": "idiotsavant",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "fastlearner",
-          "toosmart",
-          "charismatic",
-          "verycharismatic",
-          "intelligent",
-          "veryintelligent",
-          "perceptive",
-          "veryperceptive"
-        ],
-        "customName": false,
-        "stats": [
-          "+100% global learning factor",
-          "-25% global work speed"
-        ]
-      },
-      "description": "Timmy isn't stupid! he is just... different. he learns twice as fast but works slower than normal, he is also incapable handling some tasks.",
-      "stats": [
-        "+100% global learning factor",
-        "-25% global work speed"
-      ],
-      "conflicts": [
-        "fastlearner",
-        "toosmart",
-        "charismatic",
-        "verycharismatic",
-        "intelligent",
-        "veryintelligent",
-        "perceptive",
-        "veryperceptive"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "IGTraitAssassinorum",
-      "degree": 0,
-      "name": "imperial-assassinorum",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "imperial-mechanicus",
-          "imperial-astramilitarum",
-          "imperial-inquisition",
-          "imperial-medic",
-          "imperial-astarte"
-        ],
-        "customName": false,
-        "stats": [
-          "+3 shooting",
-          "+3 melee",
-          "-20% aiming time",
-          "+0.2 shooting accuracy",
-          "+30% global learning factor",
-          "+0.10 move speed",
-          "-15% mental break threshold",
-          "+15% immunity gain speed",
-          "+75 carrying capacity",
-          "+15.0% Armor - Blunt",
-          "+15.0% Armor - Sharp",
-          "-15% toxic sensitivity"
-        ]
-      },
-      "description": "Timmy has been trained by the Officio Assassinorum to be a surgical tool to serve the Emperor against Chaos. he is blessed for combat excellence at range.",
-      "stats": [
-        "+3 shooting",
-        "+3 melee",
-        "-20% aiming time",
-        "+0.2 shooting accuracy",
-        "+30% global learning factor",
-        "+0.10 move speed",
-        "-15% mental break threshold",
-        "+15% immunity gain speed",
-        "+75 carrying capacity",
-        "+15.0% Armor - Blunt",
-        "+15.0% Armor - Sharp",
-        "-15% toxic sensitivity"
-      ],
-      "conflicts": [
-        "imperial-mechanicus",
-        "imperial-astramilitarum",
-        "imperial-inquisition",
-        "imperial-medic",
-        "imperial-astarte"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "IG_TraitAstarte",
-      "degree": 0,
-      "name": "imperial-astarte",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "imperial-mechanicus",
-          "imperial-assassinorum",
-          "imperial-inquisition",
-          "imperial-medic",
-          "imperial-astramilitarum"
-        ],
-        "customName": false,
-        "stats": [
-          "+5 shooting",
-          "+5 melee",
-          "+0.1 melee dodge chance",
-          "-20% aiming time",
-          "+0.2 shooting accuracy",
-          "+0.15 move speed",
-          "-20% mental break threshold",
-          "+25% immunity gain speed",
-          "+200 carrying capacity",
-          "+20.0% Armor - Blunt",
-          "+20.0% Armor - Sharp",
-          "-20% toxic sensitivity",
-          "x70% max hit points"
-        ]
-      },
-      "description": "Timmy has been blessed by the Emperor be the pinnacle of Human Warfare as one of his Chosen Astarte in the fight against Chaos. he is blessed with the Astarte Trait.",
-      "stats": [
-        "+5 shooting",
-        "+5 melee",
-        "+0.1 melee dodge chance",
-        "-20% aiming time",
-        "+0.2 shooting accuracy",
-        "+0.15 move speed",
-        "-20% mental break threshold",
-        "+25% immunity gain speed",
-        "+200 carrying capacity",
-        "+20.0% Armor - Blunt",
-        "+20.0% Armor - Sharp",
-        "-20% toxic sensitivity",
-        "x70% max hit points"
-      ],
-      "conflicts": [
-        "imperial-mechanicus",
-        "imperial-assassinorum",
-        "imperial-inquisition",
-        "imperial-medic",
-        "imperial-astramilitarum"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "IGTraitAstraMilitarum",
-      "degree": 0,
-      "name": "imperial-astramilitarum",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "imperial-mechanicus",
-          "imperial-assassinorum",
-          "imperial-inquisition",
-          "imperial-medic",
-          "imperial-astarte"
-        ],
-        "customName": false,
-        "stats": [
-          "+3 shooting",
-          "+3 melee",
-          "+0.3 melee dodge chance",
-          "-15% aiming time",
-          "+0.2 shooting accuracy",
-          "+15% global learning factor",
-          "+0.10 move speed",
-          "-15% mental break threshold",
-          "+15% immunity gain speed",
-          "+100 carrying capacity",
-          "+10.0% Armor - Blunt",
-          "+10.0% Armor - Sharp",
-          "-10% toxic sensitivity",
-          "x300% melee hit chance"
-        ]
-      },
-      "description": "Timmy has been blessed by the Emperor to be overall better than regular humans at all tasked related to combat to better serve the Emperor against Chaos. he is blessed with general combat excellence.",
-      "stats": [
-        "+3 shooting",
-        "+3 melee",
-        "+0.3 melee dodge chance",
-        "-15% aiming time",
-        "+0.2 shooting accuracy",
-        "+15% global learning factor",
-        "+0.10 move speed",
-        "-15% mental break threshold",
-        "+15% immunity gain speed",
-        "+100 carrying capacity",
-        "+10.0% Armor - Blunt",
-        "+10.0% Armor - Sharp",
-        "-10% toxic sensitivity",
-        "x300% melee hit chance"
-      ],
-      "conflicts": [
-        "imperial-mechanicus",
-        "imperial-assassinorum",
-        "imperial-inquisition",
-        "imperial-medic",
-        "imperial-astarte"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Emperor_Hope",
-      "degree": 0,
-      "name": "imperialendurance",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": []
-      },
-      "description": "Timmy is a follower of the Imperial cult. Though life may seem arduous, complicated and finally with much suffering, NAME will carry on in the knowledge, that the Emperor has a plan. And however long it may take to unfold, the Imperium of Man will prevail until such time.",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "IGTraitInquisition",
-      "degree": 0,
-      "name": "imperial-inquisition",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "imperial-mechanicus",
-          "imperial-astramilitarum",
-          "imperial-assassinorum",
-          "imperial-medic",
-          "imperial-astarte"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 shooting",
-          "+1 melee",
-          "+1 crafting",
-          "+2 medical",
-          "+10% global work speed",
-          "-10% aiming time",
-          "+0.2 shooting accuracy",
-          "+14% global learning factor",
-          "+0.30 move speed",
-          "-15% mental break threshold",
-          "+14% immunity gain speed",
-          "+75 carrying capacity",
-          "+14.0% Armor - Blunt",
-          "+14.0% Armor - Sharp",
-          "-14% toxic sensitivity",
-          "+13.00% social impact",
-          "+14% research speed",
-          "x250% melee hit chance"
-        ]
-      },
-      "description": "Timmy has been trained by the Inquisition as the secret police of the Imperium responsible for guarding the souls of humanity. he is blessed by the Inquisition with a many varied skills.",
-      "stats": [
-        "+2 shooting",
-        "+1 melee",
-        "+1 crafting",
-        "+2 medical",
-        "+10% global work speed",
-        "-10% aiming time",
-        "+0.2 shooting accuracy",
-        "+14% global learning factor",
-        "+0.30 move speed",
-        "-15% mental break threshold",
-        "+14% immunity gain speed",
-        "+75 carrying capacity",
-        "+14.0% Armor - Blunt",
-        "+14.0% Armor - Sharp",
-        "-14% toxic sensitivity",
-        "+13.00% social impact",
-        "+14% research speed",
-        "x250% melee hit chance"
-      ],
-      "conflicts": [
-        "imperial-mechanicus",
-        "imperial-astramilitarum",
-        "imperial-assassinorum",
-        "imperial-medic",
-        "imperial-astarte"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "IGTraitMechanicus",
-      "degree": 0,
-      "name": "imperial-mechanicus",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "imperial-astramilitarum",
-          "imperial-assassinorum",
-          "imperial-inquisition",
-          "imperial-medic",
-          "imperial-astarte"
-        ],
-        "customName": false,
-        "stats": [
-          "+3 crafting",
-          "+3 construction",
-          "+3 mining",
-          "+25% global work speed",
-          "+130% global learning factor",
-          "+0.10 move speed",
-          "-15% mental break threshold",
-          "+20% immunity gain speed",
-          "+150 carrying capacity",
-          "+25.00% trade price improvement",
-          "+10.00% social impact",
-          "+10% construction speed"
-        ]
-      },
-      "description": "Timmy has been blessed by the Mechanicus to be overall better than regular humans at all tasked related to research, craft and mining. he is blessed for a harsh working environment.",
-      "stats": [
-        "+3 crafting",
-        "+3 construction",
-        "+3 mining",
-        "+25% global work speed",
-        "+130% global learning factor",
-        "+0.10 move speed",
-        "-15% mental break threshold",
-        "+20% immunity gain speed",
-        "+150 carrying capacity",
-        "+25.00% trade price improvement",
-        "+10.00% social impact",
-        "+10% construction speed"
-      ],
-      "conflicts": [
-        "imperial-astramilitarum",
-        "imperial-assassinorum",
-        "imperial-inquisition",
-        "imperial-medic",
-        "imperial-astarte"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "IGTraitImperialMedic",
-      "degree": 0,
-      "name": "imperial-medic",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "imperial-mechanicus",
-          "imperial-astramilitarum",
-          "imperial-assassinorum",
-          "imperial-inquisition",
-          "imperial-astarte"
-        ],
-        "customName": false,
-        "stats": [
-          "+6 medical",
-          "+15% global learning factor",
-          "+0.10 move speed",
-          "-12% mental break threshold",
-          "+13% immunity gain speed",
-          "+150 carrying capacity",
-          "-12% toxic sensitivity",
-          "+15.00% social impact"
-        ]
-      },
-      "description": "Timmy has been training in the arts of all medicine to help their fellow imperial citizens. he is blessed with medical excellence.",
-      "stats": [
-        "+6 medical",
-        "+15% global learning factor",
-        "+0.10 move speed",
-        "-12% mental break threshold",
-        "+13% immunity gain speed",
-        "+150 carrying capacity",
-        "-12% toxic sensitivity",
-        "+15.00% social impact"
-      ],
-      "conflicts": [
-        "imperial-mechanicus",
-        "imperial-astramilitarum",
-        "imperial-assassinorum",
-        "imperial-inquisition",
-        "imperial-astarte"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Jaded",
-      "degree": 0,
-      "name": "indifferent",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "psychopath"
-        ],
-        "customName": false,
-        "stats": [
-          "Morbid meditation focus type allowed."
-        ]
-      },
-      "description": "Timmy has seen a lot of death and pain. he's not a true psycopath and can enjoy socialization, but he's also not affected by the suffering of others.",
-      "stats": [
-        "Morbid meditation focus type allowed."
-      ],
-      "conflicts": [
-        "psychopath"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Industriousness",
       "degree": 2,
       "name": "industrious",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "+35% global work speed"
@@ -2626,99 +1127,97 @@
       "stats": [
         "+35% global work speed"
       ],
-      "conflicts": [
-        "actionboy",
-        "actiongirl"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Intelligence",
-      "degree": 1,
-      "name": "intelligent",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Insatiable",
+      "degree": 0,
+      "name": "insatiable",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "idiotsavant",
-          "stupid",
-          "toosmart"
+          "prude",
+          "asexual"
         ],
         "customName": false,
-        "stats": [
-          "+3 intellectual",
-          "+2 medical",
-          "+10% research speed",
-          "+15% global learning factor",
-          "+5.00% negotiation ability",
-          "+5.00% trade price improvement"
-        ]
+        "stats": []
       },
-      "description": "Timmy is smarter than average. he learns faster and has a good understanding of the world around him.",
-      "stats": [
-        "+3 intellectual",
-        "+2 medical",
-        "+10% research speed",
-        "+15% global learning factor",
-        "+5.00% negotiation ability",
-        "+5.00% trade price improvement"
-      ],
+      "description": "No amount of lovin' is enough lovin' for Timmy. he will tend to jump from partner to partner and tumble between the sheets with them frequently.",
+      "stats": [],
       "conflicts": [
-        "idiotsavant",
-        "stupid",
-        "toosmart"
+        "prude",
+        "asexual"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Intimidation",
-      "degree": 1,
-      "name": "intimidating",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Insomniac",
+      "degree": 0,
+      "name": "insomniac",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "wimp"
+          "heavysleeper"
         ],
         "customName": false,
         "stats": [
-          "+2 social",
-          "+10.00% negotiation ability",
-          "+20.00% social impact"
+          "x50% global work speed",
+          "x70% move speed"
         ]
       },
-      "description": "Timmy has an intimidating personality, this gives him an advantage in social interactions.",
+      "description": "Timmy is never really asleep or awake. he is almost zombie like, lurching along and working very slowly, and will only sleep once every three days or so.",
       "stats": [
-        "+2 social",
-        "+10.00% negotiation ability",
-        "+20.00% social impact"
+        "x50% global work speed",
+        "x70% move speed"
       ],
       "conflicts": [
-        "wimp"
+        "heavysleeper"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_IronStomach",
+      "degree": 0,
+      "name": "ironstomach",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "squeamish"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has never felt nausea in his life. Throwing up or food poisoning is foreign to he.",
+      "stats": [],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Nerves",
       "degree": 2,
       "name": "iron-willed",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "enduring",
-          "veryenduring",
-          "toosmart"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "-18% mental break threshold"
@@ -2728,18 +1227,14 @@
       "stats": [
         "-18% mental break threshold"
       ],
-      "conflicts": [
-        "enduring",
-        "veryenduring",
-        "toosmart"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Jealous",
       "degree": 0,
       "name": "jealous",
@@ -2751,18 +1246,12 @@
         ],
         "customName": false,
         "stats": [
-          "Morbid meditation focus type allowed.",
-          "+3 social",
-          "x115% negotiation ability",
-          "x115% trade price improvement"
+          "Morbid meditation focus type allowed."
         ]
       },
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
       "stats": [
-        "Morbid meditation focus type allowed.",
-        "+3 social",
-        "x115% negotiation ability",
-        "x115% trade price improvement"
+        "Morbid meditation focus type allowed."
       ],
       "conflicts": [
         "ascetic",
@@ -2773,18 +1262,14 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "SpeedOffset",
       "degree": 2,
       "name": "jogger",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl",
-          "rooted"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "+0.40 move speed"
@@ -2794,55 +1279,14 @@
       "stats": [
         "+0.40 move speed"
       ],
-      "conflicts": [
-        "actionboy",
-        "actiongirl",
-        "rooted"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Khorne_Fervor",
-      "degree": 0,
-      "name": "khornate",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "bloodlust",
-          "nurglite",
-          "slaaneshi",
-          "tzeentchian"
-        ],
-        "customName": false,
-        "stats": [
-          "Only mental break \"Slaughterer\" allowed.",
-          "Only mental break \"Berserk\" allowed.",
-          "+80% pain shock threshold"
-        ]
-      },
-      "description": "Timmy will regularly start slaughtering bystanders if not allowed to kill anything.",
-      "stats": [
-        "Only mental break \"Slaughterer\" allowed.",
-        "Only mental break \"Berserk\" allowed.",
-        "+80% pain shock threshold"
-      ],
-      "conflicts": [
-        "bloodlust",
-        "nurglite",
-        "slaaneshi",
-        "tzeentchian"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Kind",
       "degree": 0,
       "name": "kind",
@@ -2866,59 +1310,22 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Industriousness",
-      "degree": -1,
-      "name": "lazy",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl"
-        ],
-        "customName": false,
-        "stats": [
-          "-20% global work speed",
-          "x90% mental break threshold"
-        ]
-      },
-      "description": "Timmy is a little bit lazy.",
-      "stats": [
-        "-20% global work speed",
-        "x90% mental break threshold"
-      ],
-      "conflicts": [
-        "actionboy",
-        "actiongirl"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "HumanSaint",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Kleptomaniac",
       "degree": 0,
-      "name": "livingsaint",
+      "name": "kleptomaniac",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
         "stats": [
-          "x200% market value",
-          "x120% mental break threshold",
-          "x110% social impact",
-          "x110% tame animal chance"
+          "Only mental break \"VTE_Kleptomaniac\" allowed."
         ]
       },
-      "description": "This individual was selected by the Emperor to fulfill a purpose. What this purpose is, remains unclear.",
+      "description": "Timmy is compulsed to steal and take things that don't belong to them, even if it means angering the other party.",
       "stats": [
-        "x200% market value",
-        "x120% mental break threshold",
-        "x110% social impact",
-        "x110% tame animal chance"
+        "Only mental break \"VTE_Kleptomaniac\" allowed."
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -2926,8 +1333,102 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "Industriousness",
+      "degree": -1,
+      "name": "lazy",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "-20% global work speed"
+        ]
+      },
+      "description": "Timmy is a little bit lazy.",
+      "stats": [
+        "-20% global work speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Lush",
+      "degree": 0,
+      "name": "lush",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Alcohol culture is just part of life for Timmy. he absolutely adores booze and would rather die before giving it up.",
+      "stats": [],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_MadSurgeon",
+      "degree": 0,
+      "name": "madsurgeon",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+20% surgery success chance factor"
+        ]
+      },
+      "description": "Timmy has a twisted secret. he treats organ harvesting like a sick experiment, and does not even blink at the idea. While harvesting one will make them happy, going too long without giving in to their compulsion will upset them.",
+      "stats": [
+        "+20% surgery success chance factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_MartialArtist",
+      "degree": 0,
+      "name": "martialartist",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy learned a specific move in melee combat which allows them to disarm opponents and will use it frequently.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Masochist",
       "degree": 0,
       "name": "masochist",
@@ -2949,199 +1450,37 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Mason",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Menagerist",
       "degree": 0,
-      "name": "mason",
+      "name": "menagerist",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "gunslinger",
-          "shepherd",
-          "hunter",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
+          "animalhater"
         ],
         "customName": false,
         "stats": [
-          "+2 construction",
-          "+20% construction speed",
-          "+20% construct success chance"
+          "x120% tame animal chance",
+          "x120% train animal chance"
         ]
       },
-      "description": "Timmy is very good at building structures, furniture and machinery.",
+      "description": "Timmy believes animals are integral to the way society and life functions from furry friends to sources of food. They love having as many as possible and are particularly good at taming and training them.",
       "stats": [
-        "+2 construction",
-        "+20% construction speed",
-        "+20% construct success chance"
+        "x120% tame animal chance",
+        "x120% train animal chance"
       ],
       "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "gunslinger",
-        "shepherd",
-        "hunter",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
+        "animalhater"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Fighter",
-      "degree": 2,
-      "name": "meatshield",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "brawler",
-          "tough",
-          "gunslinger",
-          "mason",
-          "shepherd",
-          "hunter",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 melee",
-          "+20% pain shock threshold",
-          "x80% incoming damage multiplier"
-        ]
-      },
-      "description": "Timmy is very brave and quite hard to kill.",
-      "stats": [
-        "+2 melee",
-        "+20% pain shock threshold",
-        "x80% incoming damage multiplier"
-      ],
-      "conflicts": [
-        "brawler",
-        "tough",
-        "gunslinger",
-        "mason",
-        "shepherd",
-        "hunter",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Miner",
-      "degree": 0,
-      "name": "miner",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 mining",
-          "+20% mining speed",
-          "+20% mining yield",
-          "x300% smoothing speed"
-        ]
-      },
-      "description": "Timmy is a skilled miner, and knows how to work with minerals.",
-      "stats": [
-        "+2 mining",
-        "+20% mining speed",
-        "+20% mining yield",
-        "x300% smoothing speed"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "DislikesMen",
       "degree": 0,
       "name": "misandrist",
@@ -3159,8 +1498,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "DislikesWomen",
       "degree": 0,
       "name": "misogynist",
@@ -3178,43 +1517,73 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Nerves",
-      "degree": -1,
-      "name": "nervous",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_ChildOfMountain",
+      "degree": 0,
+      "name": "mountainlover",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "The mountains call to Timmy. he feels happier just being near a large mountain.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Neat",
+      "degree": 0,
+      "name": "neat",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "enduring",
-          "veryenduring",
-          "toosmart"
+          "slob"
         ],
         "customName": false,
-        "stats": [
-          "+2 intellectual",
-          "+8% mental break threshold",
-          "x110% global learning factor"
-        ]
+        "stats": []
       },
-      "description": "Timmy tends to crack under pressure.",
-      "stats": [
-        "+2 intellectual",
-        "+8% mental break threshold",
-        "x110% global learning factor"
-      ],
+      "description": "Timmy is naturally hygenic and organized. They will not track in dirt or throw trash anywhere, and feel happy while cleaning.",
+      "stats": [],
       "conflicts": [
-        "enduring",
-        "veryenduring",
-        "toosmart"
+        "slob"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "Nerves",
+      "degree": -1,
+      "name": "nervous",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+8% mental break threshold"
+        ]
+      },
+      "description": "Timmy tends to crack under pressure.",
+      "stats": [
+        "+8% mental break threshold"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Neurotic",
       "degree": 1,
       "name": "neurotic",
@@ -3238,8 +1607,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "NightOwl",
       "degree": 0,
       "name": "nightowl",
@@ -3257,8 +1626,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Nimble",
       "degree": 0,
       "name": "nimble",
@@ -3282,45 +1651,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Agility",
-      "degree": 2,
-      "name": "ninja-like",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "wimp",
-          "rooted"
-        ],
-        "customName": false,
-        "stats": [
-          "+4 melee",
-          "+30% hunting stealth",
-          "+0.40 move speed",
-          "+5.0 melee hit chance",
-          "+10.0 melee dodge chance"
-        ]
-      },
-      "description": "Timmy has great reflexes and moves like a ninja. he will land and dodge more attacks in melee combat.",
-      "stats": [
-        "+4 melee",
-        "+30% hunting stealth",
-        "+0.40 move speed",
-        "+5.0 melee hit chance",
-        "+10.0 melee dodge chance"
-      ],
-      "conflicts": [
-        "wimp",
-        "rooted"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Nudist",
       "degree": 0,
       "name": "nudist",
@@ -3338,157 +1670,27 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Nurgle_Fervor",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_ChildOfSea",
       "degree": 0,
-      "name": "nurglite",
+      "name": "oceanlover",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "khornate",
-          "slaaneshi",
-          "tzeentchian"
-        ],
+        "conflicts": [],
         "customName": false,
-        "stats": [
-          "+50% rest rate multiplier",
-          "+100% pain shock threshold"
-        ]
+        "stats": []
       },
-      "description": "Timmy is always in a good mood, for Papa Nurgle is looking after he.",
-      "stats": [
-        "+50% rest rate multiplier",
-        "+100% pain shock threshold"
-      ],
-      "conflicts": [
-        "khornate",
-        "slaaneshi",
-        "tzeentchian"
-      ],
+      "description": "The sea calls to Timmy. he feels happier just being near the ocean or a deep river.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Doctor",
-      "degree": 1,
-      "name": "nurse",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "shepherd",
-          "hunter",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 medical",
-          "+20% medical tend quality",
-          "+20% medical tend speed"
-        ]
-      },
-      "description": "Timmy is good at taking care of wounds and diseases.",
-      "stats": [
-        "+2 medical",
-        "+20% medical tend quality",
-        "+20% medical tend speed"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "shepherd",
-        "hunter",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Oblivious",
-      "degree": 0,
-      "name": "oblivious",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "intelligent",
-          "veryintelligent",
-          "fastlearner",
-          "toosmart",
-          "perceptive",
-          "veryperceptive",
-          "fortunefinder",
-          "scrounger"
-        ],
-        "customName": false,
-        "stats": [
-          "-2 intellectual",
-          "-2 medical",
-          "-2 social",
-          "-10.00% social impact",
-          "-10.00% negotiation ability",
-          "-5.00% trade price improvement",
-          "-5.00% train animal chance",
-          "-5.00% tame animal chance"
-        ]
-      },
-      "description": "Timmy isn't very aware of his surroundings, or anything at all really. he",
-      "stats": [
-        "-2 intellectual",
-        "-2 medical",
-        "-2 social",
-        "-10.00% social impact",
-        "-10.00% negotiation ability",
-        "-5.00% trade price improvement",
-        "-5.00% train animal chance",
-        "-5.00% tame animal chance"
-      ],
-      "conflicts": [
-        "intelligent",
-        "veryintelligent",
-        "fastlearner",
-        "toosmart",
-        "perceptive",
-        "veryperceptive",
-        "fortunefinder",
-        "scrounger"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "NaturalMood",
       "degree": 1,
       "name": "optimist",
@@ -3506,74 +1708,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "ORK_Brutality",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Perfectionist",
       "degree": 0,
-      "name": "orkmindedness",
+      "name": "perfectionist",
       "data": {
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": []
+        "stats": [
+          "x65% global work speed"
+        ]
       },
-      "description": "Timmy is an Orkoid, meaning HIS life evolves around seemingly mindless bloodshed.",
-      "stats": [],
+      "description": "Timmy strives for perfection in his work. They will naturally produce better quality products at the expense of time. However, making a low quality product will upset them. Additionally, they may very rarely quit a project mid attempt if they don't like the direction its going in.",
+      "stats": [
+        "x65% global work speed"
+      ],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Perception",
-      "degree": 1,
-      "name": "perceptive",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "idiotsavant",
-          "stupid",
-          "abrasive",
-          "oblivious"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 intellectual",
-          "+2 medical",
-          "+2 social",
-          "+10.00% social impact",
-          "+10.00% negotiation ability",
-          "+5.00% trade price improvement",
-          "+5.00% train animal chance",
-          "+5.00% tame animal chance"
-        ]
-      },
-      "description": "Timmy has a good awareness of his surroundings and has a good understanding of how his actions affects others.",
-      "stats": [
-        "+2 intellectual",
-        "+2 medical",
-        "+2 social",
-        "+10.00% social impact",
-        "+10.00% negotiation ability",
-        "+5.00% trade price improvement",
-        "+5.00% train animal chance",
-        "+5.00% tame animal chance"
-      ],
-      "conflicts": [
-        "idiotsavant",
-        "stupid",
-        "abrasive",
-        "oblivious"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "NaturalMood",
       "degree": -1,
       "name": "pessimist",
@@ -3581,53 +1740,18 @@
         "canBypassLimit": false,
         "conflicts": [],
         "customName": false,
-        "stats": [
-          "+2 animals",
-          "x105% tame animal chance",
-          "x110% train animal chance"
-        ]
+        "stats": []
       },
       "description": "Timmy tends to look on the bad side of life.",
-      "stats": [
-        "+2 animals",
-        "x105% tame animal chance",
-        "x110% train animal chance"
-      ],
+      "stats": [],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_AimOffset",
-      "degree": -1,
-      "name": "pooraim",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "-2 shooting",
-          "-5.0 shooting accuracy",
-          "-5.0 melee hit chance"
-        ]
-      },
-      "description": "Timmy has poor hand-eye coordination and will miss his target more often in combat.",
-      "stats": [
-        "-2 shooting",
-        "-5.0 shooting accuracy",
-        "-5.0 melee hit chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Beauty",
       "degree": 1,
       "name": "pretty",
@@ -3649,110 +1773,62 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "YnneadChosen",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Prodigy",
       "degree": 0,
-      "name": "prophetofynnead",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+2 melee",
-          "+2 shooting",
-          "+1000.00% social impact",
-          "+200.00% tame animal chance",
-          "+200.00% train animal chance",
-          "+200% immunity gain speed",
-          "+1.30 move speed",
-          "+3.0 melee hit chance",
-          "+3.0 melee dodge chance"
-        ]
-      },
-      "description": "Timmy walks under the gaze of Ynnead, the Aeldari god of death.",
-      "stats": [
-        "+2 melee",
-        "+2 shooting",
-        "+1000.00% social impact",
-        "+200.00% tame animal chance",
-        "+200.00% train animal chance",
-        "+200% immunity gain speed",
-        "+1.30 move speed",
-        "+3.0 melee hit chance",
-        "+3.0 melee dodge chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Psionic",
-      "degree": 0,
-      "name": "psionic",
+      "name": "prodigy",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
+          "dunce"
         ],
         "customName": false,
         "stats": [
-          "+0.2 neural heat limit",
-          "+0.20 neural heat recovery rate"
+          "+20% mental break threshold",
+          "x130% research speed"
         ]
       },
-      "description": "Timmy's mind is awaken to the psychic maelstrom.",
+      "description": "Timmy is a natural scientist. They research much faster and recall things better. However, they'll be upset without a laboratory dedicated to their work and tend to stress out more frequently.",
       "stats": [
-        "+0.2 neural heat limit",
-        "+0.20 neural heat recovery rate"
+        "+20% mental break threshold",
+        "x130% research speed"
       ],
       "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
+        "dunce"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Prude",
+      "degree": 0,
+      "name": "prude",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "insatiable",
+          "nudist"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy refuses to give their body to anybody but their spouse and would never fathom initiating a divorce. They also hate being nude much more than other pawns.",
+      "stats": [],
+      "conflicts": [
+        "insatiable",
+        "nudist"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "PsychicSensitivity",
       "degree": -2,
       "name": "psychicallydeaf",
@@ -3774,8 +1850,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "PsychicSensitivity",
       "degree": -1,
       "name": "psychicallydull",
@@ -3797,8 +1873,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "PsychicSensitivity",
       "degree": 2,
       "name": "psychicallyhypersensitive",
@@ -3820,8 +1896,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "PsychicSensitivity",
       "degree": 1,
       "name": "psychicallysensitive",
@@ -3843,8 +1919,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Psychopath",
       "degree": 0,
       "name": "psychopath",
@@ -3866,43 +1942,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "CegorachChosen",
-      "degree": 2,
-      "name": "puppeteerofcegorach",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+4 melee",
-          "+4 shooting",
-          "+2.0 melee hit chance",
-          "+512% mental break threshold",
-          "+1.30 move speed",
-          "+3.0 melee hit chance",
-          "+3.0 melee dodge chance"
-        ]
-      },
-      "description": "Timmy embodies Cegorach, the Aeldari god of mischief.",
-      "stats": [
-        "+4 melee",
-        "+4 shooting",
-        "+2.0 melee hit chance",
-        "+512% mental break threshold",
-        "+1.30 move speed",
-        "+3.0 melee hit chance",
-        "+3.0 melee dodge chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Pyromaniac",
       "degree": 0,
       "name": "pyromaniac",
@@ -3912,15 +1953,13 @@
         "customName": false,
         "stats": [
           "Flame meditation focus type allowed.",
-          "Only mental break \"FireStartingSpree\" allowed.",
-          "x115% Maximum comfortable temperature"
+          "Only mental break \"FireStartingSpree\" allowed."
         ]
       },
       "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
       "stats": [
         "Flame meditation focus type allowed.",
-        "Only mental break \"FireStartingSpree\" allowed.",
-        "x115% Maximum comfortable temperature"
+        "Only mental break \"FireStartingSpree\" allowed."
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -3928,37 +1967,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_QuickHands",
-      "degree": 0,
-      "name": "quickhands",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+2 melee",
-          "-15% aiming time",
-          "+15% global work speed",
-          "+5.0 melee hit chance"
-        ]
-      },
-      "description": "Timmy has quick hands. When it comes to his hands, Timmy never hesitates.",
-      "stats": [
-        "+2 melee",
-        "-15% aiming time",
-        "+15% global work speed",
-        "+5.0 melee hit chance"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "QuickSleeper",
       "degree": 0,
       "name": "quicksleeper",
@@ -3980,168 +1990,58 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_RadResistant",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Rebel",
       "degree": 0,
-      "name": "radresistant",
+      "name": "rebel",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "ghoulish"
+          "submissive"
         ],
         "customName": false,
-        "stats": [
-          "-50% toxic sensitivity",
-          "+15% immunity gain speed"
-        ]
+        "stats": []
       },
-      "description": "Timmy's body has built up a resistance to the negative effects of toxic fallout.",
-      "stats": [
-        "-50% toxic sensitivity",
-        "+15% immunity gain speed"
-      ],
+      "description": "Timmy only plays by their own rules, and will roll their eyes and take it easy while doing any task they've been forced to do.",
+      "stats": [],
       "conflicts": [
-        "ghoulish"
+        "submissive"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Scientist",
-      "degree": 2,
-      "name": "researcher",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "miner",
-          "diplomat",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 intellectual",
-          "x150% research speed"
-        ]
-      },
-      "description": "Timmy is very intelligent and can research really fast.",
-      "stats": [
-        "+2 intellectual",
-        "x150% research speed"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "miner",
-        "diplomat",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "AIRobot_BaseTrait",
-      "degree": 1,
-      "name": "robot",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+0.10 move speed",
-          "+20% global work speed",
-          "-100% psychic sensitivity",
-          "-95% toxic sensitivity",
-          "-90% mental break threshold"
-        ]
-      },
-      "description": "NAME is an robot. As a robot HE is a bit faster and not really sensible for psychic phenomena.",
-      "stats": [
-        "+0.10 move speed",
-        "+20% global work speed",
-        "-100% psychic sensitivity",
-        "-95% toxic sensitivity",
-        "-90% mental break threshold"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Rooted",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_RefinedPalate",
       "degree": 0,
-      "name": "rooted",
+      "name": "refinedpalate",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "slowpoke",
-          "fastwalker",
-          "jogger",
-          "actionboy",
-          "actiongirl",
-          "wimp"
+          "ascetic"
         ],
         "customName": false,
         "stats": [
-          "-0.20 move speed",
-          "+20% pain shock threshold",
-          "+10% immunity gain speed"
+          "x70% eating speed"
         ]
       },
-      "description": "Timmy is part tree! he can really take a beating!",
+      "description": "Only the finest of culinary creations may grace the lips of Timmy. They feel neutral towards mundane meals, but will laud and savour lavish meals down to the last bite.",
       "stats": [
-        "-0.20 move speed",
-        "+20% pain shock threshold",
-        "+10% immunity gain speed"
+        "x70% eating speed"
       ],
       "conflicts": [
-        "slowpoke",
-        "fastwalker",
-        "jogger",
-        "actionboy",
-        "actiongirl",
-        "wimp"
+        "ascetic"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "NaturalMood",
       "degree": 2,
       "name": "sanguine",
@@ -4159,227 +2059,37 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Scientist",
-      "degree": 1,
-      "name": "scientist",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Schizoid",
+      "degree": 0,
+      "name": "schizoid",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "shepherd",
-          "hunter",
-          "miner",
-          "diplomat",
-          "herbalist",
-          "hauler"
+          "iron-willed",
+          "steadfast",
+          "nervous",
+          "volatile"
         ],
         "customName": false,
-        "stats": [
-          "+2 intellectual",
-          "+20% research speed",
-          "+20% drug synthesis speed"
-        ]
+        "stats": []
       },
-      "description": "Timmy is quite smart, and can research faster as well as working with medical chemistry.",
-      "stats": [
-        "+2 intellectual",
-        "+20% research speed",
-        "+20% drug synthesis speed"
-      ],
+      "description": "Timmy has trouble expressing themselves until its all too much to bear, whereafter they will have an utter meltdown.",
+      "stats": [],
       "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "shepherd",
-        "hunter",
-        "miner",
-        "diplomat",
-        "herbalist",
-        "hauler"
+        "iron-willed",
+        "steadfast",
+        "nervous",
+        "volatile"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "KhaineChosen",
-      "degree": 0,
-      "name": "scionofkhaine",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+8 melee",
-          "+4 shooting",
-          "+4.0 melee hit chance",
-          "+3.00 melee DPS"
-        ]
-      },
-      "description": "Timmy embodies Khaine, the Aeldari god of war.",
-      "stats": [
-        "+8 melee",
-        "+4 shooting",
-        "+4.0 melee hit chance",
-        "+3.00 melee DPS"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Scrapper",
-      "degree": 0,
-      "name": "scrapper",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+2 construction",
-          "+2 crafting",
-          "+20% smelting speed",
-          "+10% repair success chance",
-          "+10% construct success chance",
-          "+10% construction speed"
-        ]
-      },
-      "description": "Timmy is good at working with scrap metal. he is great with a smelter and is efficient when using building materials. ",
-      "stats": [
-        "+2 construction",
-        "+2 crafting",
-        "+20% smelting speed",
-        "+10% repair success chance",
-        "+10% construct success chance",
-        "+10% construction speed"
-      ],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Scrounger",
-      "degree": 0,
-      "name": "scrounger",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "oblivious"
-        ],
-        "customName": false,
-        "stats": [
-          "+20% mining speed",
-          "+20% animal gather speed",
-          "+20% plant work speed",
-          "+20% eating speed"
-        ]
-      },
-      "description": "Timmy knows how to scavenge and gather for resources quickly.",
-      "stats": [
-        "+20% mining speed",
-        "+20% animal gather speed",
-        "+20% plant work speed",
-        "+20% eating speed"
-      ],
-      "conflicts": [
-        "oblivious"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Tamer",
-      "degree": 1,
-      "name": "shepherd",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "nurse",
-          "surgeon",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 animals",
-          "+20% animal gather yield",
-          "+20% animal gather speed",
-          "+20.00% tame animal chance"
-        ]
-      },
-      "description": "Timmy is really good at working with animals.",
-      "stats": [
-        "+2 animals",
-        "+20% animal gather yield",
-        "+20% animal gather speed",
-        "+20.00% tame animal chance"
-      ],
-      "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "nurse",
-        "surgeon",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Immunity",
       "degree": -1,
       "name": "sickly",
@@ -4401,80 +2111,54 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Slaanesh_Fervor",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Slob",
       "degree": 0,
-      "name": "slaaneshi",
+      "name": "slob",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "nurglite",
-          "khornate",
-          "tzeentchian"
+          "neat"
         ],
         "customName": false,
-        "stats": [
-          "Only mental break \"Binging_DrugExtreme\" allowed.",
-          "Only mental break \"Binging_Food\" allowed.",
-          "Only mental break \"Slaughterer\" allowed.",
-          "Only mental break \"Tantrum\" allowed.",
-          "Only mental break \"SadisticRage\" allowed.",
-          "+100% pain shock threshold"
-        ]
+        "stats": []
       },
-      "description": "Timmy is always seeking new thrills.",
-      "stats": [
-        "Only mental break \"Binging_DrugExtreme\" allowed.",
-        "Only mental break \"Binging_Food\" allowed.",
-        "Only mental break \"Slaughterer\" allowed.",
-        "Only mental break \"Tantrum\" allowed.",
-        "Only mental break \"SadisticRage\" allowed.",
-        "+100% pain shock threshold"
-      ],
+      "description": "Timmy is sloppy naturally and leaves trash and dirt everywhere it seems. At least they're not much bothered by messes.",
+      "stats": [],
       "conflicts": [
-        "nurglite",
-        "khornate",
-        "tzeentchian"
+        "neat"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Industriousness",
       "degree": -2,
       "name": "slothful",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
-          "-35% global work speed",
-          "x80% mental break threshold"
+          "-35% global work speed"
         ]
       },
       "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
       "stats": [
-        "-35% global work speed",
-        "x80% mental break threshold"
+        "-35% global work speed"
       ],
-      "conflicts": [
-        "actionboy",
-        "actiongirl"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "SlowLearner",
       "degree": 0,
       "name": "slowlearner",
@@ -4485,16 +2169,12 @@
         ],
         "customName": false,
         "stats": [
-          "-75% global learning factor",
-          "x110% global work speed",
-          "x125% general labor speed"
+          "-75% global learning factor"
         ]
       },
       "description": "Timmy is slow on the uptake. he learns much slower than others.",
       "stats": [
-        "-75% global learning factor",
-        "x110% global work speed",
-        "x125% general labor speed"
+        "-75% global learning factor"
       ],
       "conflicts": [
         "toosmart"
@@ -4504,18 +2184,14 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "SpeedOffset",
       "degree": -1,
       "name": "slowpoke",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "actionboy",
-          "actiongirl",
-          "rooted"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "Go frenzy inspiration disabled.",
@@ -4527,18 +2203,60 @@
         "Go frenzy inspiration disabled.",
         "-0.20 move speed"
       ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Snob",
+      "degree": 0,
+      "name": "snob",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "ascetic"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy believes they belong in high society, and loves nothing more than critiquing art and brushing elbows with royalty.",
+      "stats": [],
       "conflicts": [
-        "actionboy",
-        "actiongirl",
-        "rooted"
+        "ascetic"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Squeamish",
+      "degree": 0,
+      "name": "squeamish",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "ironstomach"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Sour stomach plagues Timmy any time they're around too much blood or rotting corpses. Vomiting is just part of life for he.",
+      "stats": [],
+      "conflicts": [
+        "ironstomach"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Beauty",
       "degree": -2,
       "name": "staggeringlyugly",
@@ -4547,18 +2265,12 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "Inspired trade inspiration disabled.",
-          "Inspired recruitment inspiration disabled.",
-          "-2.0 beauty",
-          "x115% global work speed"
+          "-2.0 beauty"
         ]
       },
       "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
       "stats": [
-        "Inspired trade inspiration disabled.",
-        "Inspired recruitment inspiration disabled.",
-        "-2.0 beauty",
-        "x115% global work speed"
+        "-2.0 beauty"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -4566,18 +2278,14 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Nerves",
       "degree": 1,
       "name": "steadfast",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "enduring",
-          "veryenduring",
-          "toosmart"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
           "-9% mental break threshold"
@@ -4587,123 +2295,66 @@
       "stats": [
         "-9% mental break threshold"
       ],
-      "conflicts": [
-        "enduring",
-        "veryenduring",
-        "toosmart"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_AimOffset",
-      "degree": 1,
-      "name": "steadyaim",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [],
-        "customName": false,
-        "stats": [
-          "+2 shooting",
-          "+5.0 shooting accuracy",
-          "+5.0 melee hit chance"
-        ]
-      },
-      "description": "Timmy has great hand-eye coordination and will miss his target less often in combat.",
-      "stats": [
-        "+2 shooting",
-        "+5.0 shooting accuracy",
-        "+5.0 melee hit chance"
-      ],
       "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_StrongBack",
-      "degree": 1,
-      "name": "strongback",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "frailback"
-        ],
-        "customName": false,
-        "stats": [
-          "+50 carrying capacity"
-        ]
-      },
-      "description": "Timmy has a strong back which allows him to carry more than most people.",
-      "stats": [
-        "+50 carrying capacity"
-      ],
-      "conflicts": [
-        "frailback"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Stupid",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Stoner",
       "degree": 0,
-      "name": "stupid",
+      "name": "stoner",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "intelligent",
-          "veryintelligent",
-          "fastlearner",
-          "toosmart",
-          "perceptive",
-          "veryperceptive"
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
         ],
         "customName": false,
-        "stats": [
-          "-3 intellectual",
-          "-3 medical",
-          "-10% research speed",
-          "-25% global learning factor",
-          "-10.00% negotiation ability",
-          "-5.00% trade price improvement",
-          "-5% construct success chance",
-          "-5% repair success chance"
-        ]
+        "stats": []
       },
-      "description": "Timmy isn't very smart. he can mess up doing just about anything.",
-      "stats": [
-        "-3 intellectual",
-        "-3 medical",
-        "-10% research speed",
-        "-25% global learning factor",
-        "-10.00% negotiation ability",
-        "-5.00% trade price improvement",
-        "-5% construct success chance",
-        "-5% repair success chance"
-      ],
+      "description": "Smokeleaf culture is just part of life for Timmy. he absolutely adores smokeleaf and would rather die before giving it up.",
+      "stats": [],
       "conflicts": [
-        "intelligent",
-        "veryintelligent",
-        "fastlearner",
-        "toosmart",
-        "perceptive",
-        "veryperceptive"
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Submissive",
+      "degree": 0,
+      "name": "submissive",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "rebel"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy needs clear instructions on how, and when to do certain things and will only work at a normal speed when being forced to do something.",
+      "stats": [],
+      "conflicts": [
+        "rebel"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Immunity",
       "degree": 1,
       "name": "super-immune",
@@ -4725,69 +2376,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "LC_Doctor",
-      "degree": 2,
-      "name": "surgeon",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Technophobe",
+      "degree": 0,
+      "name": "technophobe",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "duelist",
-          "meatshield",
-          "fighter",
-          "mason",
-          "shepherd",
-          "hunter",
-          "gunslinger",
-          "crafter",
-          "artisan",
-          "chef",
-          "miner",
-          "diplomat",
-          "scientist",
-          "researcher",
-          "herbalist",
-          "hauler"
+          "transhumanist"
         ],
         "customName": false,
         "stats": [
-          "+2 medical",
-          "+20% medical operation speed",
-          "+20% medical surgery success chance"
+          "Only mental break \"VTE_TechnophobeTantrum\" allowed."
         ]
       },
-      "description": "Timmy has a deep understanding of the body and can perform surgeries with higher accuracy and speed.",
+      "description": "Whether by past trauma or fear of change, Timmy rejects modernity. They may randomly punch or attack mechanical devices and refuse to learn or research anything about them. They also love killing mechanoids.",
       "stats": [
-        "+2 medical",
-        "+20% medical operation speed",
-        "+20% medical surgery success chance"
+        "Only mental break \"VTE_TechnophobeTantrum\" allowed."
       ],
       "conflicts": [
-        "duelist",
-        "meatshield",
-        "fighter",
-        "mason",
-        "shepherd",
-        "hunter",
-        "gunslinger",
-        "crafter",
-        "artisan",
-        "chef",
-        "miner",
-        "diplomat",
-        "scientist",
-        "researcher",
-        "herbalist",
-        "hauler"
+        "transhumanist"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "DrugDesire",
       "degree": -1,
       "name": "teetotaler",
@@ -4811,8 +2428,54 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_ThickSkinned",
+      "degree": 0,
+      "name": "thickskinned",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "thinskinned"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is strangely hypercoagulating and will bleed much more slowly than most.",
+      "stats": [],
+      "conflicts": [
+        "thinskinned"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_ThinSkinned",
+      "degree": 0,
+      "name": "thinskinned",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "thickskinned"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy is strangely hemophilic and tends to bleed much more profusely than others.",
+      "stats": [],
+      "conflicts": [
+        "thickskinned"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "TooSmart",
       "degree": 0,
       "name": "toosmart",
@@ -4848,8 +2511,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "TorturedArtist",
       "degree": 0,
       "name": "torturedartist",
@@ -4858,26 +2521,12 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "Go frenzy inspiration disabled.",
-          "Shoot frenzy inspiration disabled.",
-          "Inspired trade inspiration disabled.",
-          "Inspired recruitment inspiration disabled.",
-          "Inspired surgery inspiration disabled.",
-          "Inspired taming inspiration disabled.",
-          "Morbid meditation focus type allowed.",
-          "+2 artistic"
+          "Morbid meditation focus type allowed."
         ]
       },
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
-        "Go frenzy inspiration disabled.",
-        "Shoot frenzy inspiration disabled.",
-        "Inspired trade inspiration disabled.",
-        "Inspired recruitment inspiration disabled.",
-        "Inspired surgery inspiration disabled.",
-        "Inspired taming inspiration disabled.",
-        "Morbid meditation focus type allowed.",
-        "+2 artistic"
+        "Morbid meditation focus type allowed."
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -4885,8 +2534,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Tough",
       "degree": 0,
       "name": "tough",
@@ -4908,8 +2557,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Transhumanist",
       "degree": 0,
       "name": "transhumanist",
@@ -4931,8 +2580,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "ShootingAccuracy",
       "degree": -1,
       "name": "trigger-happy",
@@ -4960,39 +2609,35 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "Tzeentch_Fervor",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Tycoon",
       "degree": 0,
-      "name": "tzeentchian",
+      "name": "tycoon",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "nurglite",
-          "slaaneshi",
-          "khornate"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
-          "+100% research speed"
+          "+4 social",
+          "+4 crafting",
+          "+25.00% trade price improvement"
         ]
       },
-      "description": "Timmy will experience mood swings, depending on how the schemes of Tzeentch unfold.",
+      "description": "Timmy has an eye for silver and a tongue made from it. They believe their products are the best products and he will likely convince you if given the chance.",
       "stats": [
-        "+100% research speed"
+        "+4 social",
+        "+4 crafting",
+        "+25.00% trade price improvement"
       ],
-      "conflicts": [
-        "nurglite",
-        "slaaneshi",
-        "khornate"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Beauty",
       "degree": -1,
       "name": "ugly",
@@ -5001,16 +2646,12 @@
         "conflicts": [],
         "customName": false,
         "stats": [
-          "Inspired recruitment inspiration disabled.",
-          "-1.0 beauty",
-          "x110% global work speed"
+          "-1.0 beauty"
         ]
       },
       "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
       "stats": [
-        "Inspired recruitment inspiration disabled.",
-        "-1.0 beauty",
-        "x110% global work speed"
+        "-1.0 beauty"
       ],
       "conflicts": [],
       "bypassLimit": false
@@ -5018,8 +2659,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Undergrounder",
       "degree": 0,
       "name": "undergrounder",
@@ -5041,183 +2682,31 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "TAU_Philosophy",
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Vengeful",
       "degree": 0,
-      "name": "utalitarianphilosophy",
+      "name": "vengeful",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [],
+        "conflicts": [
+          "kind"
+        ],
         "customName": false,
         "stats": []
       },
-      "description": "Timmy follows the idea that all beings should strive to ensure the greatest good for the greatest number of beings in the galaxy.",
+      "description": "Timmy is fueled by spite. They can't stand walking on the same soil as their rivals and will be elated by news of their life ending.",
       "stats": [],
-      "conflicts": [],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Charisma",
-      "degree": 2,
-      "name": "verycharismatic",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "abrasive",
-          "bloodlust",
-          "idiotsavant",
-          "annoyingvoice"
-        ],
-        "customName": false,
-        "stats": [
-          "+4 social",
-          "+20.00% negotiation ability",
-          "+30.00% social impact",
-          "+10.00% trade price improvement"
-        ]
-      },
-      "description": "Timmy has a very charismatic personality. he gets bonuses to all human-like social interactions.",
-      "stats": [
-        "+4 social",
-        "+20.00% negotiation ability",
-        "+30.00% social impact",
-        "+10.00% trade price improvement"
-      ],
       "conflicts": [
-        "abrasive",
-        "bloodlust",
-        "idiotsavant",
-        "annoyingvoice"
+        "kind"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Endurance",
-      "degree": 2,
-      "name": "veryenduring",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "wimp",
-          "iron-willed",
-          "steadfast",
-          "nervous",
-          "volatile"
-        ],
-        "customName": false,
-        "stats": [
-          "+20% pain shock threshold",
-          "-20% mental break threshold",
-          "+15% immunity gain speed",
-          "-30% toxic sensitivity",
-          "-30% psychic sensitivity"
-        ]
-      },
-      "description": "Timmy has exceptional health and a very enduring personality. he is capable of handling high stress situations that others cannot.",
-      "stats": [
-        "+20% pain shock threshold",
-        "-20% mental break threshold",
-        "+15% immunity gain speed",
-        "-30% toxic sensitivity",
-        "-30% psychic sensitivity"
-      ],
-      "conflicts": [
-        "wimp",
-        "iron-willed",
-        "steadfast",
-        "nervous",
-        "volatile"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Intelligence",
-      "degree": 2,
-      "name": "veryintelligent",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "idiotsavant",
-          "stupid",
-          "toosmart"
-        ],
-        "customName": false,
-        "stats": [
-          "+5 intellectual",
-          "+3 medical",
-          "+20% research speed",
-          "+30% global learning factor",
-          "+10.00% negotiation ability",
-          "+10.00% trade price improvement"
-        ]
-      },
-      "description": "Timmy is very smart. he learns faster and has a great understanding of the world around him.",
-      "stats": [
-        "+5 intellectual",
-        "+3 medical",
-        "+20% research speed",
-        "+30% global learning factor",
-        "+10.00% negotiation ability",
-        "+10.00% trade price improvement"
-      ],
-      "conflicts": [
-        "idiotsavant",
-        "stupid",
-        "toosmart"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Intimidation",
-      "degree": 2,
-      "name": "veryintimidating",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "wimp"
-        ],
-        "customName": false,
-        "stats": [
-          "+2 social",
-          "+20.00% negotiation ability",
-          "+30.00% social impact",
-          "+5.00% trade price improvement"
-        ]
-      },
-      "description": "Timmy has a very intimidating personality, this gives him a big advantage in social interactions.",
-      "stats": [
-        "+2 social",
-        "+20.00% negotiation ability",
-        "+30.00% social impact",
-        "+5.00% trade price improvement"
-      ],
-      "conflicts": [
-        "wimp"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Neurotic",
       "degree": 2,
       "name": "veryneurotic",
@@ -5241,164 +2730,131 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_Perception",
-      "degree": 2,
-      "name": "veryperceptive",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "idiotsavant",
-          "stupid",
-          "abrasive",
-          "oblivious"
-        ],
-        "customName": false,
-        "stats": [
-          "+3 intellectual",
-          "+3 medical",
-          "+3 social",
-          "+20.00% social impact",
-          "+20.00% negotiation ability",
-          "+10.00% trade price improvement",
-          "+5.00% train animal chance",
-          "+5.00% tame animal chance"
-        ]
-      },
-      "description": "Timmy is very aware of his surroundings and has a great understanding of how his actions affects others.",
-      "stats": [
-        "+3 intellectual",
-        "+3 medical",
-        "+3 social",
-        "+20.00% social impact",
-        "+20.00% negotiation ability",
-        "+10.00% trade price improvement",
-        "+5.00% train animal chance",
-        "+5.00% tame animal chance"
-      ],
-      "conflicts": [
-        "idiotsavant",
-        "stupid",
-        "abrasive",
-        "oblivious"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
-      "defName": "FT_StrongBack",
-      "degree": 2,
-      "name": "verystrongback",
-      "data": {
-        "canBypassLimit": false,
-        "conflicts": [
-          "frailback"
-        ],
-        "customName": false,
-        "stats": [
-          "+75 carrying capacity"
-        ]
-      },
-      "description": "Timmy has a very strong back or is part mule or something. he can carry twice as much as a normal person.",
-      "stats": [
-        "+75 carrying capacity"
-      ],
-      "conflicts": [
-        "frailback"
-      ],
-      "bypassLimit": false
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Nerves",
       "degree": -2,
       "name": "volatile",
       "data": {
         "canBypassLimit": false,
-        "conflicts": [
-          "enduring",
-          "veryenduring",
-          "toosmart"
-        ],
+        "conflicts": [],
         "customName": false,
         "stats": [
-          "+3 intellectual",
-          "+15% mental break threshold",
-          "x115% global learning factor"
+          "+15% mental break threshold"
         ]
       },
       "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
       "stats": [
-        "+3 intellectual",
-        "+15% mental break threshold",
-        "x115% global learning factor"
+        "+15% mental break threshold"
       ],
-      "conflicts": [
-        "enduring",
-        "veryenduring",
-        "toosmart"
-      ],
+      "conflicts": [],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Wanderlust",
+      "degree": 0,
+      "name": "wanderlust",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": [
+          "+0.2 foraged food amount"
+        ]
+      },
+      "description": "Timmy loves to travel and does so swiftly, but can grow upset if they haven't done so in a while. They are also quite adept at foraging while traveling.",
+      "stats": [
+        "+0.2 foraged food amount"
+      ],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Wimp",
       "degree": 0,
       "name": "wimp",
       "data": {
         "canBypassLimit": false,
         "conflicts": [
-          "brawler",
-          "gunnut",
-          "rooted",
-          "intimidating",
-          "veryintimidating",
-          "agile",
-          "ninja-like",
-          "enduring",
-          "veryenduring"
+          "brawler"
         ],
         "customName": false,
         "stats": [
-          "+3 medical",
-          "-60% pain shock threshold",
-          "x120% move speed"
+          "-60% pain shock threshold"
         ]
       },
       "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
       "stats": [
-        "+3 medical",
-        "-60% pain shock threshold",
-        "x120% move speed"
+        "-60% pain shock threshold"
       ],
       "conflicts": [
-        "brawler",
-        "gunnut",
-        "rooted",
-        "intimidating",
-        "veryintimidating",
-        "agile",
-        "ninja-like",
-        "enduring",
-        "veryenduring"
+        "brawler"
       ],
       "bypassLimit": false
     },
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_Workaholic",
+      "degree": 0,
+      "name": "workaholic",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [
+          "absent-minded",
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful"
+        ],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has problems taking breaks or resting mid job. he will continue to work even sacrificing their health or sleep.",
+      "stats": [],
+      "conflicts": [
+        "absent-minded",
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful"
+      ],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
+      "defName": "VTE_WorldWeary",
+      "degree": 0,
+      "name": "worldweary",
+      "data": {
+        "canBypassLimit": false,
+        "conflicts": [],
+        "customName": false,
+        "stats": []
+      },
+      "description": "Timmy has grown tired of the world and needs to be constantly distracted to stop dark thoughts. his bleak personality is a big downer and therefore it is very hard to become friends with them.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Xenophobia",
       "degree": -1,
       "name": "xenophile",
@@ -5416,8 +2872,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 5000,
-      "removePrice": 5000,
+      "addPrice": 1000,
+      "removePrice": 1250,
       "defName": "Xenophobia",
       "degree": 1,
       "name": "xenophobe",
@@ -5431,9 +2887,18 @@
       "stats": [],
       "conflicts": [],
       "bypassLimit": false
-
-
     }
   ],
-  "total": 158
+  "races": [
+    {
+      "price": 1,
+      "defName": "Human",
+      "enabled": true,
+      "name": "human",
+      "data": {
+        "customName": false
+      }
+    }
+  ],
+  "total": 121
 }
