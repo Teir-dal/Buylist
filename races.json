@@ -1,43 +1,14 @@
 {
 "races": [
-      {
-            "price": 3500,
-      "defName": "ChjAndroid",
-      "enabled": true,
-      "name": "Android",
-      "data": {
-        "customName": false
-      }
-    },
     {
-      "price": 2500,
+      "price": 1,
       "defName": "Human",
       "enabled": true,
       "name": "human",
       "data": {
         "customName": true
      }
-    },
-    {
-      "price": 4000,
-      "defName": "OG_Abhuman_Ogryn",
-      "enabled": true,
-      "name": "ogryn",
-      "data": {
-        "customName": true
-      }
-    },
-    {
-      "price": 4000,
-      "defName": "OG_Abhuman_Ratling",
-      "enabled": true,
-      "name": "ratling",
-      "data": {
-        "customName": true
-
-      }
     }
-   
   ],
-  "total": 4
+  "total": 1
 }
