@@ -2888,16 +2888,5 @@
       "bypassLimit": false
     }
   ],
-  "races": [
-    {
-      "price": 1,
-      "defName": "Human",
-      "enabled": true,
-      "name": "human",
-      "data": {
-        "customName": false
-      }
-    }
-  ],
   "total": 121
 }
