@@ -1,16 +1,6 @@
 {
 	"incitems" : [
 	{
-		"abr": "tornado",
-		"price": 1500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "tornados",
-		"price": 4500,
-		"karmatype": "Bad"
-	},
-	{
 		"abr": "clearweather",
 		"price": 400,
 		"karmatype": "Good"
@@ -53,7 +43,7 @@
 	{
 		"abr": "heatwave",
 		"price": 750,
-		"karmatype": "Bad"
+		"karmatype": "Good"
 	},
 	{
 		"abr": "flashstorm",
@@ -342,7 +332,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 500,
+		"price": 1,
 		"karmatype": "Neutral"
 	},
 	{
@@ -376,5 +366,5 @@
 		"karmatype": "Neutral"
 	}
 	],
-	"total": 75
+	"total": 73
 }
