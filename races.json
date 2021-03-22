@@ -1,14 +1,85 @@
-{
 "races": [
+    {
+      "price": 3167,
+      "defName": "MorrowRim_AltmerRace",
+      "enabled": false,
+      "name": "Altmer",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Argonian",
+      "enabled": true,
+      "name": "Argonian",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3167,
+      "defName": "MorrowRim_BosmerRace",
+      "enabled": false,
+      "name": "Bosmer",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "MorrowRim_DunmerRace",
+      "enabled": true,
+      "name": "Dunmer",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3167,
+      "defName": "MorrowRim_AshlanderRace",
+      "enabled": false,
+      "name": "Dunmer Ashlander",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 3167,
+      "defName": "MorrowRim_FalmerRace",
+      "enabled": false,
+      "name": "Falmer",
+      "data": {
+        "customName": false
+      }
+    },
     {
       "price": 1,
       "defName": "Human",
       "enabled": true,
       "name": "human",
       "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Lombax",
+      "enabled": true,
+      "name": "khajiit",
+      "data": {
         "customName": true
-     }
+      }
+    },
+    {
+      "price": 3167,
+      "defName": "MorrowRim_OrsimerRace",
+      "enabled": true,
+      "name": "Orsimer",
+      "data": {
+        "customName": false
+      }
     }
   ],
-  "total": 1
+  "total": 9
 }
