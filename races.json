@@ -1,24 +1,5 @@
 {
 "races": [
-     
-    {
-      "price": 1,
-      "defName": "Alien_Argonian",
-      "enabled": true,
-      "name": "Argonian",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "MorrowRim_DunmerRace",
-      "enabled": true,
-      "name": "Dunmer",
-      "data": {
-        "customName": false
-      }
-    },
     {
       "price": 1,
       "defName": "Human",
@@ -27,16 +8,7 @@
       "data": {
         "customName": false
       }
-    },
-    {
-      "price": 1,
-      "defName": "Lombax",
-      "enabled": true,
-      "name": "khajiit",
-      "data": {
-        "customName": true
-      }
     }
   ],
-  "total": 4
+  "total": 1
 }
