@@ -281,16 +281,6 @@
 		"karmatype": "Neutral"
 	},
 	{
-		"abr": "prisoner",
-		"price": 800,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "visitcolony",
-		"price": 300,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "randominspire",
 		"price": 450,
 		"karmatype": "Good"
@@ -312,17 +302,17 @@
 	},
 	{
 		"abr": "reviveme",
-		"price": 4000,
+		"price": 3000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healall",
-		"price": 17000,
+		"price": 10000,
 		"karmatype": "Good"
 	},
 	{
 		"abr": "healanypawn",
-		"price": 2000,
+		"price": 1800,
 		"karmatype": "Good"
 	},
 	{
@@ -332,7 +322,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 1,
+		"price": 500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -366,5 +356,5 @@
 		"karmatype": "Neutral"
 	}
 	],
-	"total": 73
+	"total": 71
 }
