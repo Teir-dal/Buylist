@@ -20,15 +20,6 @@
     },
     {
       "price": 1,
-      "defName": "C1_Astromech",
-      "enabled": false,
-      "name": "C1 Astromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
       "defName": "StarWarsRaces_Ewok",
       "enabled": true,
       "name": "Ewok",
@@ -47,114 +38,6 @@
     },
     {
       "price": 1,
-      "defName": "RSPeacekeeperDefender",
-      "enabled": false,
-      "name": "Peacekeeper Defender",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 4667,
-      "defName": "RSPeacekeeperDefenderDesert",
-      "enabled": false,
-      "name": "Peacekeeper Defender Desert",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 4667,
-      "defName": "RSPeacekeeperDefenderForest",
-      "enabled": false,
-      "name": "Peacekeeper Defender Forest",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 4667,
-      "defName": "RSPeacekeeperDefenderWinter",
-      "enabled": false,
-      "name": "Peacekeeper Defender Winter",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 7917,
-      "defName": "RSPeacekeeperEnforcer",
-      "enabled": false,
-      "name": "Peacekeeper Enforcer",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 7917,
-      "defName": "RSPeacekeeperEnforcerDesert",
-      "enabled": false,
-      "name": "Peacekeeper Enforcer Desert",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 7917,
-      "defName": "RSPeacekeeperEnforcerForest",
-      "enabled": false,
-      "name": "Peacekeeper Enforcer Forest",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 7917,
-      "defName": "RSPeacekeeperEnforcerWinter",
-      "enabled": false,
-      "name": "Peacekeeper Enforcer Winter",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 23333,
-      "defName": "RSPeacekeeperSentinel",
-      "enabled": false,
-      "name": "Peacekeeper Sentinel",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 23333,
-      "defName": "RSPeacekeeperSentinelDesert",
-      "enabled": false,
-      "name": "Peacekeeper Sentinel Desert",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 23333,
-      "defName": "RSPeacekeeperSentinelForest",
-      "enabled": false,
-      "name": "Peacekeeper Sentinel Forest",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 23333,
-      "defName": "RSPeacekeeperSentinelWinter",
-      "enabled": false,
-      "name": "Peacekeeper Sentinel Winter",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
       "defName": "R2_Astromech",
       "enabled": true,
       "name": "R2 Astromech Droid",
@@ -164,54 +47,9 @@
     },
     {
       "price": 1,
-      "defName": "R3_Astromech",
-      "enabled": false,
-      "name": "R3 Astromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "R4_Astromech",
-      "enabled": false,
-      "name": "R4 Agromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "R5_Astromech",
-      "enabled": false,
-      "name": "R5 Astromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "R6_Astromech",
-      "enabled": false,
-      "name": "R6 Astromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
       "defName": "StarWarsRaces_Rodian",
       "enabled": true,
       "name": "Rodian",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "TC_Protocol",
-      "enabled": false,
-      "name": "TC Protocol Droid",
       "data": {
         "customName": false
       }
@@ -253,5 +91,5 @@
       }
     }
   ],
-  "total": 28
+  "total": 10
 }
