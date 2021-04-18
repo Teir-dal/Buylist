@@ -859,7 +859,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "LC_Creative",
@@ -1384,7 +1384,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_ForceSensitive",
@@ -1403,7 +1403,7 @@
     },
     {
       "canAdd": true,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 25000,
       "removePrice": 1000,
       "defName": "PJ_ForceSensitive",
@@ -1549,7 +1549,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_GrayTrait",
@@ -1590,7 +1590,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_GrayTrait",
@@ -1631,7 +1631,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_GrayTrait",
@@ -1672,7 +1672,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_GrayTrait",
@@ -2103,7 +2103,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "LC_Immortal",
@@ -2307,7 +2307,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_JediTrait",
@@ -2348,7 +2348,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_JediTrait",
@@ -2389,7 +2389,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_JediTrait",
@@ -2430,7 +2430,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_JediTrait",
@@ -4060,7 +4060,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_SithTrait",
@@ -4101,7 +4101,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_SithTrait",
@@ -4142,7 +4142,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_SithTrait",
@@ -4183,7 +4183,7 @@
     },
     {
       "canAdd": false,
-      "canRemove": true,
+      "canRemove": false,
       "addPrice": 1000,
       "removePrice": 1000,
       "defName": "PJ_SithTrait",
