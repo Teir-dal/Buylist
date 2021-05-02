@@ -2,33 +2,6 @@
 "races": [
     {
       "price": 1,
-      "defName": "3PO_Protocol",
-      "enabled": true,
-      "name": "3PO Protocol Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "BB_Astromech",
-      "enabled": true,
-      "name": "BB Astromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "StarWarsRaces_Ewok",
-      "enabled": true,
-      "name": "Ewok",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
       "defName": "Human",
       "enabled": true,
       "name": "human",
@@ -36,60 +9,6 @@
         "customName": false
       }
     },
-    {
-      "price": 1,
-      "defName": "R2_Astromech",
-      "enabled": true,
-      "name": "R2 Astromech Droid",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "StarWarsRaces_Rodian",
-      "enabled": true,
-      "name": "Rodian",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "StarWarsRaces_Togruta",
-      "enabled": true,
-      "name": "Togruta",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "StarWarsRaces_Twilek",
-      "enabled": true,
-      "name": "Twi'lek",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "StarWarsRaces_Wookiee",
-      "enabled": true,
-      "name": "Wookiee",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "Alien_Zabrak",
-      "enabled": true,
-      "name": "Zabrak",
-      "data": {
-        "customName": false
-      }
-    }
   ],
-  "total": 10
+  "total": 1
 }
