@@ -1,16 +1,149 @@
 {
 "races": [
-      {
-        
+    {
+      "price": 1,
+      "defName": "Alien_Bullgor",
+      "enabled": true,
+      "name": "bullgor",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "IG_StdChaosMarineRace",
+      "enabled": true,
+      "name": "Chaos Space Marine",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Dryad",
+      "enabled": true,
+      "name": "dryad",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Eldar",
+      "enabled": true,
+      "name": "Eldar",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Grot",
+      "enabled": true,
+      "name": "Grot",
+      "data": {
+        "customName": false
+      }
+    },
+    {
       "price": 1,
       "defName": "Human",
       "enabled": true,
       "name": "human",
       "data": {
-        "customName": true
+        "customName": false
       }
-    }
-   
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Kroot",
+      "enabled": true,
+      "name": "Kroot",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_SkavenMoulder",
+      "enabled": true,
+      "name": "Moulder skaven",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "OG_Abhuman_Ogryn",
+      "enabled": true,
+      "name": "ogryn",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Ork",
+      "enabled": true,
+      "name": "Ork",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "OG_Abhuman_Ratling",
+      "enabled": true,
+      "name": "ratling",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Sororitas",
+      "enabled": true,
+      "name": "Sister Of Battle",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Salamander",
+      "enabled": true,
+      "name": "Space Marine",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Tau",
+      "enabled": true,
+      "name": "Tau",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_Vespid",
+      "enabled": true,
+      "name": "Vespid",
+      "data": {
+        "customName": false
+      }
+    },
+    {
+      "price": 1,
+      "defName": "Alien_DryadWild",
+      "enabled": true,
+      "name": "wild dryad",
+      "data": {
+        "customName": false
+      }
+    },
   ],
-  "total": 1
+  "total": 16
 }
