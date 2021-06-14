@@ -1,50 +1,6 @@
 {
   "races": [
-    {
-      "price": 1,
-      "defName": "LotRD_DwarfStandardRace",
-      "enabled": true,
-      "name": "dwarf",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "LotRE_ElfStandardRace",
-      "enabled": true,
-      "name": "elf",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "Ent_Race",
-      "enabled": true,
-      "name": "Ent",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "LotRE_ElfStandardRaceHalf",
-      "enabled": true,
-      "name": "half-elf",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "LotRH_HobbitStandardRace",
-      "enabled": true,
-      "name": "hobbit",
-      "data": {
-        "customName": false
-      }
-    },
+   
     {
       "price": 1,
       "defName": "Human",
@@ -54,24 +10,6 @@
         "customName": false
       }
     },
-    {
-      "price": 1,
-      "defName": "LotRW_WizardStandardRace",
-      "enabled": true,
-      "name": "wizard",
-      "data": {
-        "customName": false
-      }
-    },
-    {
-      "price": 1,
-      "defName": "Alien_Uruk",
-      "enabled": true,
-      "name": "Uruk",
-      "data": {
-        "customName": false
-      }
-    }
   ]
-  "total": 8
+  "total": 1
 }
