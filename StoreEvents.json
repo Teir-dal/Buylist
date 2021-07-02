@@ -242,13 +242,13 @@
 	},
 	{
 		"abr": "randomdisease",
-		"price": 1000,
-		"karmatype": "Bad"
+		"price": 2500,
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "disease",
-		"price": 1000,
-		"karmatype": "Bad"
+		"price": 2500,
+		"karmatype": "Doom"
 	},
 	{
 		"abr": "reviveanypawn",
@@ -279,6 +279,16 @@
 		"abr": "genderswap",
 		"price": 1,
 		"karmatype": "Neutral"
+	},
+	{
+		"abr": "prisoner",
+		"price": 800,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "visitcolony",
+		"price": 300,
+		"karmatype": "Good"
 	},
 	{
 		"abr": "randominspire",
@@ -331,6 +341,11 @@
 		"karmatype": "Neutral"
 	},
 	{
+		"abr": "rescueme",
+		"price": 800,
+		"karmatype": "Neutral"
+	},
+	{
 		"abr": "fullheal",
 		"price": 2167,
 		"karmatype": "Good"
@@ -349,7 +364,77 @@
 		"abr": "backpack",
 		"price": 1,
 		"karmatype": "Neutral"
+	},
+	{
+		"abr": "settraits",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "cleartraits",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "use",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "wear",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "equip",
+		"price": 1,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "randomchildhood",
+		"price": 3000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "randomadulthood",
+		"price": 3000,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "smite",
+		"price": 2500,
+		"karmatype": "Doom"
+	},
+	{
+		"abr": "sanctuary",
+		"price": 100000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "hailstorm",
+		"price": 2500,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "earthquake",
+		"price": 2000,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "cropsprout",
+		"price": 2000,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "drought",
+		"price": 3000,
+		"karmatype": "Bad"
+	},
+	{
+		"abr": "huntingparty",
+		"price": 500,
+		"karmatype": "Neutral"
 	}
 	],
-	"total": 70
+	"total": 87
 }
