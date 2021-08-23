@@ -96,11 +96,6 @@
 		"karmatype": "Good"
 	},
 	{
-		"abr": "transportpodcrash",
-		"price": 600,
-		"karmatype": "Good"
-	},
-	{
 		"abr": "tradercaravan",
 		"price": 275,
 		"karmatype": "Good"
@@ -327,7 +322,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 500,
+		"price": 1,
 		"karmatype": "Neutral"
 	},
 	{
@@ -357,7 +352,7 @@
 	},
 	{
 		"abr": "removepassion",
-		"price": 5000,
+		"price": 1500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -409,32 +404,7 @@
 		"abr": "sanctuary",
 		"price": 100000,
 		"karmatype": "Good"
-	},
-	{
-		"abr": "hailstorm",
-		"price": 2500,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "earthquake",
-		"price": 2000,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "cropsprout",
-		"price": 2000,
-		"karmatype": "Good"
-	},
-	{
-		"abr": "drought",
-		"price": 3000,
-		"karmatype": "Bad"
-	},
-	{
-		"abr": "huntingparty",
-		"price": 500,
-		"karmatype": "Neutral"
 	}
 	],
-	"total": 87
+	"total": 81
 }
