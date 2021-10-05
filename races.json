@@ -1,15 +1,589 @@
-{
   "races": [
-   
     {
-      "price": 1,
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+28.8F [16.0C] Minimum comfortable temperature",
+          "+46.8F [26.0C] Maximum comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value"
+        ],
+        "mod": "RimWorld",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
       "enabled": true,
       "name": "human",
-      "data": {
-        "customName": false
-      }
+      "price": 1
     },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+6.50 Move speed",
+          "+85% Hunger rate multiplier",
+          "+1.0 Beauty",
+          "+32.4F [18.0C] Minimum comfortable temperature",
+          "+46.8F [26.0C] Maximum comfortable temperature",
+          "+40% Mental break threshold",
+          "+85% Global work speed",
+          "+3 Honor value",
+          "+75 Meat amount",
+          "+40 Leather amount",
+          "+$1750 Market value"
+        ],
+        "mod": "Bun Race",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A tribe of rabbit-like humanoids. They are small and weak, but have powerful legs.\n        \n        Small bodies leave them roughly 15% weaker in nearly all respects\n        Less resistant to cold temperatures\n        Over 40% faster running speed\n        Generally fine-featured and attractive\n        Somewhat Neurotic",
+      "defName": "Alien_BunTribe",
+      "enabled": true,
+      "name": "Bun",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+70.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+5.02 Move speed",
+          "+14.4F [8.0C] Minimum comfortable temperature",
+          "+72.0F [40.0C] Maximum comfortable temperature",
+          "+25 Leather amount",
+          "+85% Psychic sensitivity",
+          "+120% Mining speed",
+          "+110% Construction speed",
+          "+110% Animal gather speed",
+          "+110% Animal gather yield"
+        ],
+        "mod": "Vulpine Race Pack (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A curious Fennex race, known for their obsession with information and love for dry climates.",
+      "defName": "Alien_Fennex",
+      "enabled": true,
+      "name": "Fennex",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+4.92 Move speed",
+          "-9.0F [-5.0C] Minimum comfortable temperature",
+          "+46.8F [26.0C] Maximum comfortable temperature",
+          "+25 Leather amount",
+          "+85% Psychic sensitivity",
+          "+120% Mining speed",
+          "+110% Construction speed",
+          "+110% Animal gather speed",
+          "+110% Animal gather yield"
+        ],
+        "mod": "Vulpine Race Pack (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A curious Fox race, known for their obsession with information and resistance to cold.",
+      "defName": "Alien_Frijjid",
+      "enabled": true,
+      "name": "Frijjid",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+50.00 Mass",
+          "+$2000 Market value",
+          "+6.24 Move speed",
+          "+50% Flammability",
+          "-16.2F [-9.0C] Minimum comfortable temperature",
+          "+43.2F [24.0C] Maximum comfortable temperature",
+          "+25 Leather amount",
+          "+120% Research speed",
+          "+75% Mining speed",
+          "+120.00% Social impact",
+          "+75% Construction speed",
+          "+120% Animal gather speed",
+          "+120% Animal gather yield",
+          "+115% Immunity gain speed",
+          "+150% Psychic sensitivity",
+          "+4.0 Shooting accuracy",
+          "+4 Honor value"
+        ],
+        "mod": "Ferian Race",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Ferian is Developed by advanced genetic engineering. They have fast speed and high intelligence, and their lives are a little longer. However, there is a downside that it is not suitable for physical labor. They don't care whether they eat raw food or sleep in a cold place or sleep on the floor.",
+      "defName": "AFerian",
+      "enabled": true,
+      "name": "Ferian",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+75.00 Mass",
+          "+50% Flammability",
+          "+$1500 Market value",
+          "+5.00 Move speed",
+          "-27.0F [-15.0C] Minimum comfortable temperature",
+          "+27.0F [15.0C] Maximum comfortable temperature",
+          "+25 Leather amount",
+          "+110% Mining speed",
+          "+115% Research speed",
+          "+105% Immunity gain speed"
+        ],
+        "mod": "Frilleum Race",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Frilleum are a long lived and elegant race of dragon-like humanoids. They strongly resemble Frilleus dragons and many worship such creatures. The patron deity of the Frilleum is a space dragoness named Sigrune, a long bodied feathered and furred serpent that endlessly flies through the stars in search of the elusive truth.",
+      "defName": "AFrilleum",
+      "enabled": true,
+      "name": "Frilleum",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+6.00 Move speed",
+          "-18.0F [-10.0C] Minimum comfortable temperature",
+          "+63.0F [35.0C] Maximum comfortable temperature",
+          "+150% Global learning factor",
+          "+15 Leather amount",
+          "+100% Psychic sensitivity",
+          "+125% Research speed",
+          "+110% Medical tend speed",
+          "+200% Medical tend quality",
+          "+125% Mechanoid shredding efficiency",
+          "+125% Mechanoid shredding speed",
+          "+120% Construction speed",
+          "+120% Construct success chance",
+          "+150% Drug cooking speed",
+          "+150% Drug synthesis speed"
+        ],
+        "mod": "Kolra's Oni Race Mod (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of blue demons hailing from the tribelands.",
+      "defName": "Alien_BlueOni",
+      "enabled": true,
+      "name": "BlueOni",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+6.50 Move speed",
+          "+0.0F [0.0C] Minimum comfortable temperature",
+          "+79.2F [44.0C] Maximum comfortable temperature",
+          "+35 Leather amount",
+          "+50% Psychic sensitivity",
+          "+130% Animal gather speed",
+          "+130% Animal gather yield",
+          "+125% Butchery efficiency",
+          "+125% Butchery speed",
+          "+1.3 Cooking speed",
+          "+10.00% Food poison chance",
+          "+125.00% Negotiation ability",
+          "+150% Plant harvest yield",
+          "+125% Plant work speed",
+          "+2 Foraged food amount",
+          "+125.00% Tame animal chance",
+          "+125.00% Train animal chance",
+          "+200% Hunting stealth"
+        ],
+        "mod": "Kolra's Oni Race Mod (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of green demons hailing from the forests.",
+      "defName": "Alien_GreenOni",
+      "enabled": true,
+      "name": "GreenOni",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+20% Flammability",
+          "+$2000 Market value",
+          "+7.00 Move speed",
+          "+0.0F [0.0C] Minimum comfortable temperature",
+          "+90.0F [50.0C] Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+50% Psychic sensitivity",
+          "+150% Global work speed",
+          "+70 Carrying capacity",
+          "+200% Construction speed",
+          "+200% Mining speed",
+          "+150% Mining yield",
+          "+200% Smoothing speed",
+          "+1.5 Melee hit chance"
+        ],
+        "mod": "Kolra's Oni Race Mod (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of red demons hailing from the mountians. Living through hardship after hardship has resulted in these oni having stronger bodies than their smaller cousins. Having grown up residing in mountians has also had the benifit of making Red Oni exceptional miners.",
+      "defName": "Alien_RedOni",
+      "enabled": true,
+      "name": "RedOni",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+5.20 Move speed",
+          "+18.0F [10.0C] Minimum comfortable temperature",
+          "+36.0F [20.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+100% Research speed",
+          "+85% Plant work speed",
+          "+85% Mining speed",
+          "+100.00% Social impact",
+          "+0.0 Melee dodge chance",
+          "+100% Immunity gain speed",
+          "+5.0% Armor - Blunt",
+          "+10.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Blue_Dragonkin",
+      "enabled": true,
+      "name": "Blue Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+4.20 Move speed",
+          "+46.8F [26.0C] Minimum comfortable temperature",
+          "+64.8F [36.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+100% Research speed",
+          "+90% Plant work speed",
+          "+110% Mining speed",
+          "+100.00% Social impact",
+          "+0.1 Melee dodge chance",
+          "+90% Immunity gain speed",
+          "+7.5% Armor - Blunt",
+          "+15.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Red_Dragonkin",
+      "enabled": true,
+      "name": "Red Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+4.60 Move speed",
+          "+28.8F [16.0C] Minimum comfortable temperature",
+          "+46.8F [26.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+100% Research speed",
+          "+115% Plant work speed",
+          "+85% Mining speed",
+          "+90.00% Social impact",
+          "+0.0 Melee dodge chance",
+          "+110% Immunity gain speed",
+          "+10.0% Armor - Blunt",
+          "+20.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Green_Dragonkin",
+      "enabled": true,
+      "name": "Green Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+4.60 Move speed",
+          "+28.8F [16.0C] Minimum comfortable temperature",
+          "+46.8F [26.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+120% Research speed",
+          "+90% Plant work speed",
+          "+90% Mining speed",
+          "+110% General labor speed",
+          "+90.00% Social impact",
+          "+0.1 Melee dodge chance",
+          "+100% Immunity gain speed",
+          "+7.5% Armor - Blunt",
+          "+15.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Silver_Dragonkin",
+      "enabled": true,
+      "name": "Silver Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+4.60 Move speed",
+          "+46.8F [26.0C] Minimum comfortable temperature",
+          "+64.8F [36.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+100% Research speed",
+          "+100% Plant work speed",
+          "+100% Mining speed",
+          "+120.00% Social impact",
+          "+0.1 Melee dodge chance",
+          "+100% Immunity gain speed",
+          "+5.0% Armor - Blunt",
+          "+10.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Gold_Dragonkin",
+      "enabled": true,
+      "name": "Gold Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+5.60 Move speed",
+          "+18.0F [10.0C] Minimum comfortable temperature",
+          "+36.0F [20.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+90% Research speed",
+          "+85% Plant work speed",
+          "+100% Mining speed",
+          "+120% General labor speed",
+          "+100.00% Social impact",
+          "+0.0 Melee dodge chance",
+          "+100% Immunity gain speed",
+          "+7.5% Armor - Blunt",
+          "+15.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Purple_Dragonkin",
+      "enabled": true,
+      "name": "Purple Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+90% Flammability",
+          "+$1900 Market value",
+          "+4.40 Move speed",
+          "+36.0F [20.0C] Minimum comfortable temperature",
+          "+54.0F [30.0C] Maximum comfortable temperature",
+          "+60 Leather amount",
+          "+100% Research speed",
+          "+100% Plant work speed",
+          "+100% Mining speed",
+          "+120.00% Social impact",
+          "+0.0 Melee dodge chance",
+          "+100% Immunity gain speed",
+          "+10.0% Armor - Blunt",
+          "+20.0% Armor - Sharp",
+          "+15.0% Armor - Heat"
+        ],
+        "mod": "Dragonkin",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A baseline Dragonkin from Dracon prime. A Reptilian Humanoid race, Dragonkin are considered beasts by some for their inhuman features.",
+      "defName": "Alien_Black_Dragonkin",
+      "enabled": true,
+      "name": "Black Dragonkin",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+65.00 Mass",
+          "+100% Flammability",
+          "+$2000 Market value",
+          "+4 Honor value",
+          "+75 Carrying capacity",
+          "+100% Global learning factor",
+          "+80% Psychic sensitivity",
+          "+80% Rest rate multiplier",
+          "+80% Global work speed",
+          "+0 Foraged food amount",
+          "+100.00% Negotiation ability",
+          "+100.00% Social impact",
+          "+100.00% Trade price improvement",
+          "+40 Leather amount",
+          "+78% Pain shock threshold",
+          "+30% Mental break threshold",
+          "+32.4F [18.0C] Minimum comfortable temperature",
+          "+54.0F [30.0C] Maximum comfortable temperature",
+          "+5.00 Move speed",
+          "+95% Aiming time",
+          "+10.0 Melee dodge chance",
+          "+1.2 Melee hit chance"
+        ],
+        "mod": "Nyaron race",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "the Marvelous gift of glitterworld bionics. Humanoid with cat ears and tail.",
+      "defName": "Alien_Nyaron",
+      "enabled": true,
+      "name": "Nyaron",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+65.00 Mass",
+          "+100% Flammability",
+          "+$1750 Market value",
+          "+4.61 Move speed",
+          "+21.6F [12.0C] Minimum comfortable temperature",
+          "+90.0F [50.0C] Maximum comfortable temperature",
+          "+25 Leather amount"
+        ],
+        "mod": "Lord of the Rims - Dwarves (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Immune to disease. Lives for 250 years. Loves to mine, craft, and make friends.",
+      "defName": "LotRD_DwarfStandardRace",
+      "enabled": true,
+      "name": "dwarf",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+42.00 Mass",
+          "+100% Flammability",
+          "+45 Carrying capacity",
+          "+$1750 Market value",
+          "+4.61 Move speed",
+          "+21.6F [12.0C] Minimum comfortable temperature",
+          "+57.6F [32.0C] Maximum comfortable temperature",
+          "+25 Leather amount"
+        ],
+        "mod": "Lord of the Rims - Hobbits (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Immune to disease. Lives to be 100 years old. Loves to eat, drink, be merry, and sometimes, just sometimes, go on adventures.",
+      "defName": "LotRH_HobbitStandardRace",
+      "enabled": true,
+      "name": "hobbit",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+$1750 Market value",
+          "+4.61 Move speed",
+          "+21.6F [12.0C] Minimum comfortable temperature",
+          "+57.6F [32.0C] Maximum comfortable temperature",
+          "+25 Leather amount"
+        ],
+        "mod": "Lord of the Rims - Elves (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Immune to disease. Wise and immortal.",
+      "defName": "LotRE_ElfStandardRace",
+      "enabled": true,
+      "name": "elf",
+      "price": 1
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+$1250 Market value",
+          "+4.61 Move speed",
+          "+21.6F [12.0C] Minimum comfortable temperature",
+          "+57.6F [32.0C] Maximum comfortable temperature",
+          "+25 Leather amount"
+        ],
+        "mod": "Lord of the Rims - Elves (Continued)",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Those born between the world of immortality and mortality.",
+      "defName": "LotRE_ElfStandardRaceHalf",
+      "enabled": true,
+      "name": "half-elf",
+      "price": 1
+    }
   ]
- "total" : 1
+ "total" : 21
 }
